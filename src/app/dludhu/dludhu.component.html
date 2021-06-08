@@ -1,0 +1,67 @@
+<div class="container">
+  <div class="row d-flex justify-content-center">
+    <div class="col-4 ">
+      <h2 class="text-center">Input:</h2>
+      <form>
+
+        <div class="form-group">
+          <label for="nPlayers">Number of Players who Tries</label>
+          <input 
+            [(ngModel)]="iteration" 
+            name="iteration" 
+            type="number" 
+            class="form-control" 
+            id="iteration" 
+            placeholder="Enter Number of Players who Tries">
+        </div>
+
+        <div class="form-group">
+          <label for="nPlayers">Number of Tries Each Player</label>
+          <input 
+            [(ngModel)]="nTry" 
+            name="nTry" 
+            type="number" 
+            class="form-control" 
+            id="nTry" 
+            placeholder="Enter Number of Tries Each Player">
+        </div>
+
+        <div class="form-group">
+          <label for="nPlayers">Chance to Trigger per Try</label>
+          <input 
+            [(ngModel)]="chanceToTrigger" 
+            name="chanceToTrigger" 
+            type="number" 
+            class="form-control" 
+            id="chanceToTrigger" 
+            placeholder="Enter Number of Chance of Success per Try">
+        </div>
+
+      </form>
+
+      <button type="button" class="btn btn-dark m-3" (click)="showHelp()">Show Help</button>
+      <button type="button" class="btn btn-dark m-3" (click)="loading()">Run the Simulation</button>
+    </div>
+
+    <div class="col-8">
+      <h2 class="text-center">Journals:</h2>
+
+      <div *ngIf="messages.length === 0" class="text-center"><p style="color: red;">You have no entries.<br>Please do a simulation by clicking the button on the left</p></div>
+
+      <div *ngIf="messages.length !== 0" class="text-center">
+        <p><b>{{nSucceed}} players triggered the events at least one</b></p>
+        <p><b>{{nFailed}} players triggered nothing</b></p>
+      </div>
+
+      <div class="justify-content-center">
+        <div *ngFor="let message of messages" class=" d-flex justify-content-center">
+          <div class="card col-8">
+            <div class="card-body">
+              {{message}}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,172 @@
+<div class="container">
+  <div class="row d-flex justify-content-center">
+    <div class="col-4 ">
+      <h2 class="text-center">Input:</h2>
+      <form>
+
+        <div class="form-group">
+          <label for="nPlayers">Iteration</label>
+          <input 
+            [(ngModel)]="nPlayers" 
+            name="nPlayers" 
+            type="number" 
+            class="form-control" 
+            id="nPlayers" 
+            placeholder="Enter Number of Players">
+        </div>
+
+        <div class="form-group">
+          <label for="stamina">Stamina</label>
+          <input 
+            [(ngModel)]="playerSetting.stamina" 
+            name="stamina" 
+            type="number" 
+            class="form-control" 
+            id="stamina" 
+            placeholder="Enter Stamina">
+        </div>
+
+        <div class="form-group">
+          <label for="steps">Steps</label>
+          <input 
+            [(ngModel)]="playerSetting.steps" 
+            name="steps" 
+            type="number" 
+            class="form-control" 
+            id="steps" 
+            placeholder="Enter Current Steps">
+        </div>
+
+        <div class="form-group">
+          <label for="speedLvl">Speed Level</label>
+          <input 
+            [(ngModel)]="stats.speedLvl" 
+            name="speedLvl" 
+            type="number" 
+            class="form-control" 
+            id="speedLvl" 
+            placeholder="Enter Speed Level">
+        </div>
+
+        <div class="form-group">
+          <label for="siphonLvl">Siphon Level</label>
+          <input 
+            [(ngModel)]="stats.siphonLvl" 
+            name="siphonLvl" 
+            type="number" 
+            class="form-control" 
+            id="siphonLvl" 
+            placeholder="Enter Sync Level">
+        </div>
+
+        <!-- Catch Rate Estimator -->
+        <div *ngIf="enableCRE">
+          <div class="form-group">
+            <label for="speedLvl">Normal Mouse CRE</label>
+            <input 
+              [(ngModel)]="cre.normal" 
+              name="creNormal" 
+              type="number" 
+              class="form-control" 
+              id="creNormal" 
+              placeholder="Enter Normal Mouse CRE">
+          </div>
+
+          <div class="form-group">
+            <label for="speedLvl">Terrified Adventure CRE</label>
+            <input 
+              [(ngModel)]="cre.ta" 
+              name="creTA" 
+              type="number" 
+              class="form-control" 
+              id="creTA" 
+              placeholder="Enter Terrified Adventure CRE">
+          </div>
+
+          <div class="form-group">
+            <label for="speedLvl">Bulwark CRE</label>
+            <input 
+              [(ngModel)]="cre.bulwark" 
+              name="creBulwark" 
+              type="number" 
+              class="form-control" 
+              id="creBulwark" 
+              placeholder="Enter Bulwark CRE">
+          </div>
+
+          <div class="form-group">
+            <label for="speedLvl">Eclipse CRE</label>
+            <input 
+              [(ngModel)]="cre.eclipse" 
+              name="creEclipse" 
+              type="number" 
+              class="form-control" 
+              id="creEclipse" 
+              placeholder="Enter Eclipse CRE">
+          </div>
+        </div>
+
+        <!-- Setting -->
+
+        <div class="form-check form-switch">
+          <label class="form-check-label" for="fire">Champion's Fire</label>
+          <input 
+            class="form-check-input"
+            name="fire"
+            type="checkbox" 
+            id="fire"
+            (change)="fire(settings.fire ? 1 : 0)"
+            [(ngModel)]="settings.fire">
+        </div>
+
+        <div class="form-check form-switch">
+          <label class="form-check-label" for="stringStepping">String Stepping</label>
+          <input 
+            class="form-check-input"
+            name="stringStepping"
+            type="checkbox" 
+            id="stringStepping"
+            (change)="stringStepping(settings.stringStepping ? 2 : 1)"
+            [(ngModel)]="settings.stringStepping">
+        </div>
+
+        <div class="form-check form-switch">
+          <label class="form-check-label" for="superSiphon">Super Siphon</label>
+          <input 
+            class="form-check-input"
+            name="superSiphon"
+            type="checkbox" 
+            id="superSiphon"
+            (change)="superSiphon(settings.superSiphon ? 2 : 1)"
+            [(ngModel)]="settings.superSiphon">
+        </div>
+
+      </form>
+      <button *ngIf="enableCRE" type="button" class="btn btn-dark m-3" (click)="hideCRE()">Hide CRE</button>
+      <button *ngIf="!enableCRE" type="button" class="btn btn-dark m-3" (click)="showCRE()">Show CRE</button>
+      <button type="button" class="btn btn-dark m-3" (click)="loading()">Run the Simulation</button>
+    </div>
+
+    <div class="col-8">
+      <h2 class="text-center">Journals:</h2>
+
+      <div *ngIf="messages.length === 0" class="text-center"><p style="color: red;">You have no entries.<br>Please do a simulation by clicking the button on the left</p></div>
+
+      <div *ngIf="messages.length > 1" class="text-center">
+        <!-- <button type="button" class="btn btn-outline-primary m-3" (click)="seeStepsData()">See based on steps</button> -->
+        <button type="button" class="btn btn-outline-primary m-3" (click)="seeFloorData()">See based on floors</button>
+        <button type="button" class="btn btn-outline-primary m-3" (click)="seeEclipseData()">See based on Eclipse</button>
+      </div>
+
+      <div class="justify-content-center">
+        <div *ngFor="let message of messages" class=" d-flex justify-content-center">
+          <div class="card col-8">
+            <div class="card-body">
+              {{message}}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
