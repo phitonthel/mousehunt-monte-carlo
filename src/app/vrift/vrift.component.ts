@@ -10,6 +10,8 @@ export class VriftComponent implements OnInit {
   messages: any[] = []
   nPlayers: number = 1000
   actionType: string = 'floor'
+  debug: boolean = false
+  debugMessages: string[] = []
 
   floorsData: any[] = []
   eclipseData: any[] = []
@@ -90,12 +92,14 @@ export class VriftComponent implements OnInit {
         // if TE phase
         if (player.eclipsePhase) {
           const caught = H.isCaught('eclipse', this.cre)
+          // if (this.debug) { console.log(`${hunt+1} TE:`, caught) }
           if (caught) {
             player.steps += H.stepsAdvancement('eclipse', caught, this.stats)
             player.stamina += this.stats.siphonLvl * 5 * this.stats.superSiphon
             player.eclipsePhase = false
             player.eclipseCount ++
             player.floors++
+            // if (this.debug) { console.log(`${hunt+1} TE:`, caught, player.steps) }
           }
           continue
         }
@@ -114,6 +118,7 @@ export class VriftComponent implements OnInit {
           ? player.steps = H.floorsToSteps(player.floors)
           : player.steps = H.stepsPlacement(player.steps, advancement, player.eclipseCount)
         player.floors = H.stepsToFloors(player.steps)
+        // if (this.debug) { console.log(`${hunt+1} Normal:`, player.steps) }
       }
   
       // extract the necessary data
@@ -132,9 +137,9 @@ export class VriftComponent implements OnInit {
     // count data
     this.floorsData = []
     for (let i = 0; i < 200; i++) {
-      const count = players.filter(player => player.floors === i+1).length;
+      const count = players.filter(player => player.floors === i).length;
       if (count > 0) {
-        this.floorsData.push(`Floors ${i+1}: ${count} players (${((count/players.length)*100).toFixed(2)}%)`)
+        this.floorsData.push(`Floors ${i}: ${count} players (${((count/players.length)*100).toFixed(2)}%)`)
       }
     }
 

@@ -64,7 +64,7 @@ export class H {
   static nextStepsforTE(eclipseCount: number) {
     let steps = 0
     for (let te = 0; te < eclipseCount + 1; te++) {
-      steps += (20 + (te * 10) + te) * 7
+      steps += ((20 + (te * 10)) * 7) + te
     }
     return steps
   }
