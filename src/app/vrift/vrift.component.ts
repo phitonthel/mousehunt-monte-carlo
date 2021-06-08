@@ -62,6 +62,9 @@ export class VriftComponent implements OnInit {
     this.playerSetting.floors = H.stepsToFloors(this.playerSetting.steps)
     this.playerSetting.eclipseCount = Math.floor(this.playerSetting.floors/8)
 
+    console.log(this.playerSetting);
+    console.log(this.stats);
+    console.log(this.cre);
     setTimeout(() => {
       this.monteCarlo()
     }, 100)
@@ -136,10 +139,10 @@ export class VriftComponent implements OnInit {
     }
 
     this.eclipseData = []
-    for (let i = 0; i < 20; i++) {
+    for (let i = 0; i < 25; i++) {
       const count = players.filter(player => player.eclipseCount === i).length;
       if (count > 0) {
-        this.eclipseData.push(`TE ${i+1}: ${count} players (${((count/players.length)*100).toFixed(2)}%)`)
+        this.eclipseData.push(`TE ${i}: ${count} players (${((count/players.length)*100).toFixed(2)}%)`)
       }
     }
 

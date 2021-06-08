@@ -152,7 +152,7 @@
 
       <div *ngIf="messages.length === 0" class="text-center"><p style="color: red;">You have no entries.<br>Please do a simulation by clicking the button on the left</p></div>
 
-      <div *ngIf="messages.length > 1" class="text-center">
+      <div *ngIf="messages.length > 0" class="text-center">
         <!-- <button type="button" class="btn btn-outline-primary m-3" (click)="seeStepsData()">See based on steps</button> -->
         <button type="button" class="btn btn-outline-primary m-3" (click)="seeFloorData()">See based on floors</button>
         <button type="button" class="btn btn-outline-primary m-3" (click)="seeEclipseData()">See based on Eclipse</button>
