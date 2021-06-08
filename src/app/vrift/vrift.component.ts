@@ -57,6 +57,11 @@ export class VriftComponent implements OnInit {
 
   loading(): void {
     this.messages = ['Loading...']
+
+    // assign new value to player's floor, eclipseCount, eclipsePhase based on steps
+    this.playerSetting.floors = H.stepsToFloors(this.playerSetting.steps)
+    this.playerSetting.eclipseCount = Math.floor(this.playerSetting.floors/8)
+
     setTimeout(() => {
       this.monteCarlo()
     }, 100)
@@ -68,7 +73,6 @@ export class VriftComponent implements OnInit {
   }
 
   monteCarlo() {
-    // const players = generatePlayers(nPlayers)
     const players = []
   
     // simulate each player

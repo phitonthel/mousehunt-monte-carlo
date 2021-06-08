@@ -120,7 +120,7 @@ export class H {
     }
     return floors
   }
-  
+
   static isFallingDown(currentSteps: number, advancement: number) {
     const currentFloor = this.stepsToFloors(currentSteps)
     const nextFloor = this.stepsToFloors(currentSteps + advancement)
