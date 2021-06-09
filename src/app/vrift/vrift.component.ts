@@ -113,7 +113,7 @@ export class VriftComponent implements OnInit {
         const isFallDown = H.isFallingDown(player.steps, advancement)
   
         // set new value to player
-        player.eclipsePhase = H.isTE(player.steps, advancement, player.eclipseCount)
+        player.eclipsePhase = H.isEclipse(player.steps, advancement, player.eclipseCount)
         isFallDown
           ? player.steps = H.floorsToSteps(player.floors)
           : player.steps = H.stepsPlacement(player.steps, advancement, player.eclipseCount)

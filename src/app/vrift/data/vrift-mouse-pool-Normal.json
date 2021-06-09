@@ -1,0 +1,5308 @@
+{
+  "floor1": [
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.2251918,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.26962314,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.29828851,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Puppetto",
+      "rangeAR": 0.84385802,
+      "power": 2900,
+      "riftEff": 1
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.9897985,
+      "power": 4800,
+      "riftEff": 1.75
+    }
+  ],
+  "floor2": [
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.02825927,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.06786427,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Cutpurse",
+      "rangeAR": 0.61666142,
+      "power": 6650,
+      "riftEff": 2
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.75690724,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.98802395,
+      "power": 100,
+      "riftEff": 1.5
+    }
+  ],
+  "floor3": [
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.22333044,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Martial",
+      "rangeAR": 0.78306592,
+      "power": 8800,
+      "riftEff": 3
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.9197745,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.96107979,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.98688205,
+      "power": 23000,
+      "riftEff": 1.75
+    }
+  ],
+  "floor4": [
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.13506631,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.17952255,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "One-Mouse Band",
+      "rangeAR": 0.72816976,
+      "power": 11750,
+      "riftEff": 4
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.75734748,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.986313,
+      "power": 100,
+      "riftEff": 1.5
+    }
+  ],
+  "floor5": [
+    {
+      "mouseName": "Mouse of Elements",
+      "rangeAR": 0.55371633,
+      "power": 16000,
+      "riftEff": 5
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.58227848,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.80363518,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.84377367,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.98636806,
+      "power": 4800,
+      "riftEff": 1.75
+    }
+  ],
+  "floor6": [
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.14340859,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.17078021,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.40016376,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.44332671,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Cursed Crusader",
+      "rangeAR": 0.98795181,
+      "power": 21500,
+      "riftEff": 6
+    }
+  ],
+  "floor7": [
+    {
+      "mouseName": "Withered Remains",
+      "rangeAR": 0.54474113,
+      "power": 29000,
+      "riftEff": 7
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.76508357,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.79474113,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.9427232,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.98430493,
+      "power": 8250,
+      "riftEff": 1.75
+    }
+  ],
+  "floor8": [],
+  "floor9": [
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.02903688,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.31193906,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Puppet Champion",
+      "rangeAR": 0.39957765,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.41775398,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.55434045,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.64363828,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Puppetto",
+      "rangeAR": 0.99343842,
+      "power": 2900,
+      "riftEff": 1
+    }
+  ],
+  "floor10": [
+    {
+      "mouseName": "Champion Thief",
+      "rangeAR": 0.09096358,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.2212648,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.31267796,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.33223438,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.35741046,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Cutpurse",
+      "rangeAR": 0.71099955,
+      "power": 6650,
+      "riftEff": 2
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.99310655,
+      "power": 38000,
+      "riftEff": 10
+    }
+  ],
+  "floor11": [
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.08650851,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.11238917,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.24602604,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.26575605,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Praetorian Champion",
+      "rangeAR": 0.35330298,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Martial",
+      "rangeAR": 0.71083952,
+      "power": 8800,
+      "riftEff": 3
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.99305056,
+      "power": 38000,
+      "riftEff": 10
+    }
+  ],
+  "floor12": [
+    {
+      "mouseName": "Champion Danseuse",
+      "rangeAR": 0.08704988,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.11537826,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.24653122,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.52750248,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.62173769,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.63982491,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "One-Mouse Band",
+      "rangeAR": 0.99380575,
+      "power": 11750,
+      "riftEff": 4
+    }
+  ],
+  "floor13": [
+    {
+      "mouseName": "Mouse of Elements",
+      "rangeAR": 0.35100247,
+      "power": 16000,
+      "riftEff": 5
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.38039,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.66346242,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.68140621,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.77002655,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.90561201,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Magic Champion",
+      "rangeAR": 0.99240136,
+      "power": 72000,
+      "riftEff": 9
+    }
+  ],
+  "floor14": [
+    {
+      "mouseName": "Cursed Crusader",
+      "rangeAR": 0.35359526,
+      "power": 21500,
+      "riftEff": 6
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.44208673,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.47062639,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.74054855,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Fallen Champion Footman",
+      "rangeAR": 0.8329318,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.85220534,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.99175315,
+      "power": 100,
+      "riftEff": 1.5
+    }
+  ],
+  "floor15": [
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.28445691,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Withered Remains",
+      "rangeAR": 0.63158913,
+      "power": 29000,
+      "riftEff": 7
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.76516104,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Arch Champion Necromancer",
+      "rangeAR": 0.85288713,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.88229036,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.89931328,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.98878035,
+      "power": 4800,
+      "riftEff": 1.75
+    }
+  ],
+  "floor16": [],
+  "floor17": [
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.08553437,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Puppet Champion",
+      "rangeAR": 0.24951898,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.3682001,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.39321322,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.40983033,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.53463355,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Puppetto",
+      "rangeAR": 0.86155326,
+      "power": 2900,
+      "riftEff": 1
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.99361553,
+      "power": 38000,
+      "riftEff": 10
+    }
+  ],
+  "floor18": [
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.12605992,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Cutpurse",
+      "rangeAR": 0.44504563,
+      "power": 6650,
+      "riftEff": 2
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.46103529,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.59404022,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.61810547,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.74287329,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.82669789,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Champion Thief",
+      "rangeAR": 0.99475087,
+      "power": 72000,
+      "riftEff": 9
+    }
+  ],
+  "floor19": [
+    {
+      "mouseName": "Martial",
+      "rangeAR": 0.32889289,
+      "power": 8800,
+      "riftEff": 3
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.45958596,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.58163816,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.66543654,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.68874887,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Praetorian Champion",
+      "rangeAR": 0.84761476,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.97542754,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.99279928,
+      "power": 23000,
+      "riftEff": 1.75
+    }
+  ],
+  "floor20": [
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.12705411,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.14368738,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.27184369,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Champion Danseuse",
+      "rangeAR": 0.43356713,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.5242485,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.5507014,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "One-Mouse Band",
+      "rangeAR": 0.8745491,
+      "power": 11750,
+      "riftEff": 4
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.99338677,
+      "power": 150000,
+      "riftEff": 25
+    }
+  ],
+  "floor21": [
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.12485006,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.14914034,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.28418633,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.36765294,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.48970412,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.50439824,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Magic Champion",
+      "rangeAR": 0.66703319,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Mouse of Elements",
+      "rangeAR": 0.9930028,
+      "power": 16000,
+      "riftEff": 5
+    }
+  ],
+  "floor22": [
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.11938798,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.24436006,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.32834487,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.35324994,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Fallen Champion Footman",
+      "rangeAR": 0.51507706,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Cursed Crusader",
+      "rangeAR": 0.84264016,
+      "power": 21500,
+      "riftEff": 6
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.97654679,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.99285236,
+      "power": 23000,
+      "riftEff": 1.75
+    }
+  ],
+  "floor23": [
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.12451317,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.14776632,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.2323024,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Withered Remains",
+      "rangeAR": 0.56403207,
+      "power": 29000,
+      "riftEff": 7
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.57846506,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.70355097,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Arch Champion Necromancer",
+      "rangeAR": 0.86082474,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.98831615,
+      "power": 38000,
+      "riftEff": 10
+    }
+  ],
+  "floor24": [],
+  "floor25": [
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.01595864,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.08912115,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.13542369,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.25421443,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.33299618,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.35704653,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Puppet Champion",
+      "rangeAR": 0.59159362,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Puppetto",
+      "rangeAR": 0.88401888,
+      "power": 2900,
+      "riftEff": 1
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.99415599,
+      "power": 350000,
+      "riftEff": 50
+    }
+  ],
+  "floor26": [
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.0469894,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Champion Thief",
+      "rangeAR": 0.27089936,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.34772156,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Cutpurse",
+      "rangeAR": 0.64277128,
+      "power": 6650,
+      "riftEff": 2
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.65839799,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.77740138,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.85619058,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.8785925,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.99235056,
+      "power": 100,
+      "riftEff": 1.5
+    }
+  ],
+  "floor27": [
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.07293296,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Martial",
+      "rangeAR": 0.37296907,
+      "power": 8800,
+      "riftEff": 3
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.39090143,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.47093513,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.5867132,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.61078349,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.65615597,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Praetorian Champion",
+      "rangeAR": 0.87639908,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.99326032,
+      "power": 350000,
+      "riftEff": 50
+    }
+  ],
+  "floor28": [
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.07502651,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.08841463,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.16768293,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Champion Danseuse",
+      "rangeAR": 0.39249735,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.43624072,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.54626193,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "One-Mouse Band",
+      "rangeAR": 0.8540562,
+      "power": 11750,
+      "riftEff": 4
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.96871686,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.99270944,
+      "power": 8250,
+      "riftEff": 1.75
+    }
+  ],
+  "floor29": [
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.04579093,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.06999692,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.18362627,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Magic Champion",
+      "rangeAR": 0.4093432,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.48535307,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.55889608,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.57308048,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Mouse of Elements",
+      "rangeAR": 0.87588652,
+      "power": 16000,
+      "riftEff": 5
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.99229109,
+      "power": 100,
+      "riftEff": 1.5
+    }
+  ],
+  "floor30": [
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.07977676,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.19107026,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.26838477,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.31631648,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.42941563,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Cursed Crusader",
+      "rangeAR": 0.7222587,
+      "power": 21500,
+      "riftEff": 6
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.74507551,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Fallen Champion Footman",
+      "rangeAR": 0.97931714,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.99474721,
+      "power": 23000,
+      "riftEff": 1.75
+    }
+  ],
+  "floor31": [
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.07576544,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.09462031,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Arch Champion Necromancer",
+      "rangeAR": 0.33402526,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.45009514,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.55820792,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.63207058,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.6796402,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Withered Remains",
+      "rangeAR": 0.96713371,
+      "power": 29000,
+      "riftEff": 7
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.99014011,
+      "power": 8250,
+      "riftEff": 1.75
+    }
+  ],
+  "floor32": [],
+  "floor33": [
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.10473458,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.17521521,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.24695122,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.36011478,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Puppetto",
+      "rangeAR": 0.64149928,
+      "power": 2900,
+      "riftEff": 1
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.68238881,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.69583931,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Puppet Champion",
+      "rangeAR": 0.97363701,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.9928264,
+      "power": 8250,
+      "riftEff": 1.75
+    }
+  ],
+  "floor34": [
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.1035,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.12116667,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.14233333,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Cutpurse",
+      "rangeAR": 0.431,
+      "power": 6650,
+      "riftEff": 2
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.49766667,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.605,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Champion Thief",
+      "rangeAR": 0.87933333,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.92016667,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.99283333,
+      "power": 4800,
+      "riftEff": 1.75
+    }
+  ],
+  "floor35": [
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.07028293,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.17552712,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.19751307,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.30473959,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.37358083,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.38817805,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.42764462,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Praetorian Champion",
+      "rangeAR": 0.7066138,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Martial",
+      "rangeAR": 0.99207064,
+      "power": 8800,
+      "riftEff": 3
+    }
+  ],
+  "floor36": [
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.0677315,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.13708047,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.1514355,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.25313384,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.29700768,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.31884351,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Champion Danseuse",
+      "rangeAR": 0.61241407,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.71815608,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "One-Mouse Band",
+      "rangeAR": 0.99069955,
+      "power": 11750,
+      "riftEff": 4
+    }
+  ],
+  "floor37": [
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.07192525,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.18013907,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.28922208,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Magic Champion",
+      "rangeAR": 0.57887875,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.59408953,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.61451543,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.65341156,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Mouse of Elements",
+      "rangeAR": 0.91894828,
+      "power": 16000,
+      "riftEff": 5
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.98978705,
+      "power": 150000,
+      "riftEff": 25
+    }
+  ],
+  "floor38": [
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.10446366,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.16919841,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.21360131,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Fallen Champion Footman",
+      "rangeAR": 0.48375789,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.50642674,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.5239542,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.59476513,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Cursed Crusader",
+      "rangeAR": 0.88455247,
+      "power": 21500,
+      "riftEff": 6
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.99018462,
+      "power": 100,
+      "riftEff": 1.5
+    }
+  ],
+  "floor39": [
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.04288939,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Arch Champion Necromancer",
+      "rangeAR": 0.32104339,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.39628794,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.41835967,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.48056183,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.5876599,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.60245799,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Withered Remains",
+      "rangeAR": 0.88061199,
+      "power": 29000,
+      "riftEff": 7
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.99097066,
+      "power": 350000,
+      "riftEff": 50
+    }
+  ],
+  "floor40": [],
+  "floor41": [
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.07023411,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.16825315,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Puppetto",
+      "rangeAR": 0.42809365,
+      "power": 2900,
+      "riftEff": 1
+    },
+    {
+      "mouseName": "Puppet Champion",
+      "rangeAR": 0.75971186,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.77463339,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.87059429,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.90764085,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.92976589,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.99176743,
+      "power": 4800,
+      "riftEff": 1.75
+    }
+  ],
+  "floor42": [
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.04182319,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.10869021,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.16979715,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.26972201,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.37465565,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Cutpurse",
+      "rangeAR": 0.64838467,
+      "power": 6650,
+      "riftEff": 2
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.66215878,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.67943902,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Champion Thief",
+      "rangeAR": 0.99323817,
+      "power": 72000,
+      "riftEff": 9
+    }
+  ],
+  "floor43": [
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.0121259,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Martial",
+      "rangeAR": 0.2626419,
+      "power": 8800,
+      "riftEff": 3
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.32765738,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.40196079,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.50309598,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.54411765,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.56372549,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Praetorian Champion",
+      "rangeAR": 0.89215686,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.99355005,
+      "power": 100,
+      "riftEff": 1.5
+    }
+  ],
+  "floor44": [
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.09907121,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.16858992,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Champion Danseuse",
+      "rangeAR": 0.48860118,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "One-Mouse Band",
+      "rangeAR": 0.7545736,
+      "power": 11750,
+      "riftEff": 4
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.79425837,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.81480439,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.87953842,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.97973544,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.99183788,
+      "power": 23000,
+      "riftEff": 1.75
+    }
+  ],
+  "floor45": [
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.02249022,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.03487614,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.13559322,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.20567145,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.24967406,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Magic Champion",
+      "rangeAR": 0.5684485,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.66753586,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Mouse of Elements",
+      "rangeAR": 0.92666232,
+      "power": 16000,
+      "riftEff": 5
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.99380704,
+      "power": 150000,
+      "riftEff": 25
+    }
+  ],
+  "floor46": [
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.03492709,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.1024076,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Fallen Champion Footman",
+      "rangeAR": 0.44184469,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.46456426,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.56629366,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.57782299,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Cursed Crusader",
+      "rangeAR": 0.82773822,
+      "power": 21500,
+      "riftEff": 6
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.92607664,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.99355714,
+      "power": 4800,
+      "riftEff": 1.75
+    }
+  ],
+  "floor47": [
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.09209598,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.13302752,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Withered Remains",
+      "rangeAR": 0.3962597,
+      "power": 29000,
+      "riftEff": 7
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.4629499,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.55857445,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.57551164,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.64326041,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Arch Champion Necromancer",
+      "rangeAR": 0.97671136,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.99117855,
+      "power": 23000,
+      "riftEff": 1.75
+    }
+  ],
+  "floor48": [],
+  "floor49": [
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.01527016,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.10884886,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.15035239,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Puppetto",
+      "rangeAR": 0.40798747,
+      "power": 2900,
+      "riftEff": 1
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.48003132,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.57674236,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.59866875,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.65818324,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Puppet Champion",
+      "rangeAR": 0.99686766,
+      "power": 72000,
+      "riftEff": 9
+    }
+  ],
+  "floor50": [
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.09692132,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Cutpurse",
+      "rangeAR": 0.35917902,
+      "power": 6650,
+      "riftEff": 2
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.39984797,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.42417332,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.52147473,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.58836944,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Champion Thief",
+      "rangeAR": 0.91828202,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.97795515,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.99163816,
+      "power": 23000,
+      "riftEff": 1.75
+    }
+  ],
+  "floor51": [
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.07359667,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Praetorian Champion",
+      "rangeAR": 0.41081081,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.43451144,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.49355509,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.50436591,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.61205821,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.7018711,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.73929314,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Martial",
+      "rangeAR": 0.9962578,
+      "power": 8800,
+      "riftEff": 3
+    }
+  ],
+  "floor52": [
+    {
+      "mouseName": "One-Mouse Band",
+      "rangeAR": 0.26949153,
+      "power": 11750,
+      "riftEff": 4
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.36271186,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Champion Danseuse",
+      "rangeAR": 0.70381356,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.76228813,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.80254237,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.81398305,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.91016949,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.92754237,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.99364407,
+      "power": 150000,
+      "riftEff": 25
+    }
+  ],
+  "floor53": [
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.05522682,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Magic Champion",
+      "rangeAR": 0.38067061,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Mouse of Elements",
+      "rangeAR": 0.6469428,
+      "power": 16000,
+      "riftEff": 5
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.66272189,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.73126233,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.8234714,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.86193294,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.88708087,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.99506903,
+      "power": 350000,
+      "riftEff": 50
+    }
+  ],
+  "floor54": [
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.07532149,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.09859155,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Cursed Crusader",
+      "rangeAR": 0.35456215,
+      "power": 21500,
+      "riftEff": 6
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.41702388,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.51071647,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.54623393,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Fallen Champion Footman",
+      "rangeAR": 0.88487446,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.98285364,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.9938763,
+      "power": 23000,
+      "riftEff": 1.75
+    }
+  ],
+  "floor55": [
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.09273904,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Withered Remains",
+      "rangeAR": 0.36017254,
+      "power": 29000,
+      "riftEff": 7
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.43062545,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.43925234,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.47591661,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Arch Champion Necromancer",
+      "rangeAR": 0.79439252,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.90294752,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.9698059,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.99424874,
+      "power": 8250,
+      "riftEff": 1.75
+    }
+  ],
+  "floor56": [],
+  "floor57": [
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.07210777,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.13074485,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.1703645,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Puppetto",
+      "rangeAR": 0.42313788,
+      "power": 2900,
+      "riftEff": 1
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.44215531,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.54992076,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Puppet Champion",
+      "rangeAR": 0.88431062,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.98256735,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.99762282,
+      "power": 8250,
+      "riftEff": 1.75
+    }
+  ],
+  "floor58": [
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.10025489,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.13593883,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.23959218,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Cutpurse",
+      "rangeAR": 0.49107901,
+      "power": 6650,
+      "riftEff": 2
+    },
+    {
+      "mouseName": "Champion Thief",
+      "rangeAR": 0.82412914,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.90059473,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.91673747,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.97536109,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.99660153,
+      "power": 8250,
+      "riftEff": 1.75
+    }
+  ],
+  "floor59": [
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.06239601,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Praetorian Champion",
+      "rangeAR": 0.39101498,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.40599002,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Martial",
+      "rangeAR": 0.68219634,
+      "power": 8800,
+      "riftEff": 3
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.77204659,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.8843594,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.94176373,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.95840266,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.99584027,
+      "power": 38000,
+      "riftEff": 10
+    }
+  ],
+  "floor60": [
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.0192,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.1272,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Champion Danseuse",
+      "rangeAR": 0.4352,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.524,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.5368,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "One-Mouse Band",
+      "rangeAR": 0.8096,
+      "power": 11750,
+      "riftEff": 4
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.8824,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.9488,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.9944,
+      "power": 38000,
+      "riftEff": 10
+    }
+  ],
+  "floor61": [
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.00849618,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.05182668,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Mouse of Elements",
+      "rangeAR": 0.2982158,
+      "power": 16000,
+      "riftEff": 5
+    },
+    {
+      "mouseName": "Magic Champion",
+      "rangeAR": 0.63976211,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.73746814,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.75276126,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.85301614,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.92268479,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.99320306,
+      "power": 4800,
+      "riftEff": 1.75
+    }
+  ],
+  "floor62": [
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.10152284,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Cursed Crusader",
+      "rangeAR": 0.36209814,
+      "power": 21500,
+      "riftEff": 6
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.40524535,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.42470389,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.47461929,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.57529611,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.58967851,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Fallen Champion Footman",
+      "rangeAR": 0.93147208,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.99407784,
+      "power": 4800,
+      "riftEff": 1.75
+    }
+  ],
+  "floor63": [
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.09113924,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Withered Remains",
+      "rangeAR": 0.37468355,
+      "power": 29000,
+      "riftEff": 7
+    },
+    {
+      "mouseName": "Arch Champion Necromancer",
+      "rangeAR": 0.69704641,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.75189874,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.85654009,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.87172996,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.93164557,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.94852321,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.99324894,
+      "power": 38000,
+      "riftEff": 10
+    }
+  ],
+  "floor64": [],
+  "floor65": [
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.11878453,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Puppet Champion",
+      "rangeAR": 0.44935543,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.50736648,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.52762431,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Puppetto",
+      "rangeAR": 0.78453039,
+      "power": 2900,
+      "riftEff": 1
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.85819521,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.87292818,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.96224678,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.99815838,
+      "power": 38000,
+      "riftEff": 10
+    }
+  ],
+  "floor66": [
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.10623782,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.11695907,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.17446394,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.24853801,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.26120858,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Champion Thief",
+      "rangeAR": 0.58674464,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.62865497,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Cutpurse",
+      "rangeAR": 0.88011696,
+      "power": 6650,
+      "riftEff": 2
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.9951267,
+      "power": 350000,
+      "riftEff": 50
+    }
+  ],
+  "floor67": [
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.01784121,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.05976806,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.1677074,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Martial",
+      "rangeAR": 0.42016057,
+      "power": 8800,
+      "riftEff": 3
+    },
+    {
+      "mouseName": "Praetorian Champion",
+      "rangeAR": 0.74754683,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.82337199,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.84299732,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.92239072,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.9955397,
+      "power": 4800,
+      "riftEff": 1.75
+    }
+  ],
+  "floor68": [
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.10280374,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.16448598,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.17102804,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "One-Mouse Band",
+      "rangeAR": 0.43364486,
+      "power": 11750,
+      "riftEff": 4
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.49252336,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.50934579,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Champion Danseuse",
+      "rangeAR": 0.83738318,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.87850467,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.99719626,
+      "power": 350000,
+      "riftEff": 50
+    }
+  ],
+  "floor69": [
+    {
+      "mouseName": "Mouse of Elements",
+      "rangeAR": 0.25119389,
+      "power": 16000,
+      "riftEff": 5
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.3495702,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.41165234,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Magic Champion",
+      "rangeAR": 0.76217765,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.80038204,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.81088825,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.8252149,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.93696275,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.99617956,
+      "power": 150000,
+      "riftEff": 25
+    }
+  ],
+  "floor70": [
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.01590668,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.10816543,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.12089078,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Cursed Crusader",
+      "rangeAR": 0.37963945,
+      "power": 21500,
+      "riftEff": 6
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.41887593,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.49840933,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.5980912,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.65535525,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Fallen Champion Footman",
+      "rangeAR": 0.99363733,
+      "power": 72000,
+      "riftEff": 9
+    }
+  ],
+  "floor71": [
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.0187638,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.07615894,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.12582781,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Withered Remains",
+      "rangeAR": 0.38520971,
+      "power": 29000,
+      "riftEff": 7
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.49558499,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Arch Champion Necromancer",
+      "rangeAR": 0.83995585,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.85651214,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.94370861,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.98785872,
+      "power": 38000,
+      "riftEff": 10
+    }
+  ],
+  "floor72": [],
+  "floor73": [
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.01830065,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.0875817,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Puppetto",
+      "rangeAR": 0.35424837,
+      "power": 2900,
+      "riftEff": 1
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.39215686,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.45490196,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Puppet Champion",
+      "rangeAR": 0.80915033,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.82614379,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.9124183,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.99477124,
+      "power": 100,
+      "riftEff": 1.5
+    }
+  ],
+  "floor74": [
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.03111588,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Champion Thief",
+      "rangeAR": 0.36480687,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.42274678,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.43562232,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.45922747,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.52467811,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.61158798,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Cutpurse",
+      "rangeAR": 0.88841202,
+      "power": 6650,
+      "riftEff": 2
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.99141631,
+      "power": 350000,
+      "riftEff": 50
+    }
+  ],
+  "floor75": [
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.05569307,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Praetorian Champion",
+      "rangeAR": 0.36014852,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Martial",
+      "rangeAR": 0.65470297,
+      "power": 8800,
+      "riftEff": 3
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.73143564,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.80693069,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.84282178,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.85767327,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.87623762,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.99381188,
+      "power": 100,
+      "riftEff": 1.5
+    }
+  ],
+  "floor76": [
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.07692308,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.0852071,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.10532544,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.1443787,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.23550296,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.30414201,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.38816568,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Champion Danseuse",
+      "rangeAR": 0.73372781,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "One-Mouse Band",
+      "rangeAR": 0.99526627,
+      "power": 11750,
+      "riftEff": 4
+    }
+  ],
+  "floor77": [
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.00725514,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Magic Champion",
+      "rangeAR": 0.34340992,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.42079806,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.5114873,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Mouse of Elements",
+      "rangeAR": 0.77750907,
+      "power": 16000,
+      "riftEff": 5
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.7980653,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.88754534,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.92382104,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.99758162,
+      "power": 4800,
+      "riftEff": 1.75
+    }
+  ],
+  "floor78": [
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.01285347,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.08097686,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.09640103,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.1966581,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.29948586,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Fallen Champion Footman",
+      "rangeAR": 0.61953727,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.67352185,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.73007712,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Cursed Crusader",
+      "rangeAR": 0.99485861,
+      "power": 21500,
+      "riftEff": 6
+    }
+  ],
+  "floor79": [
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.06340819,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.10700132,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.11756935,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.21268164,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Arch Champion Necromancer",
+      "rangeAR": 0.54689564,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.64993395,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.68031704,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Withered Remains",
+      "rangeAR": 0.9339498,
+      "power": 29000,
+      "riftEff": 7
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.98811096,
+      "power": 4800,
+      "riftEff": 1.75
+    }
+  ],
+  "floor80": [],
+  "floor81": [
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.0904059,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.16236162,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.19926199,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.21217712,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.25645756,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.27306273,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.35239852,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Puppetto",
+      "rangeAR": 0.62915129,
+      "power": 2900,
+      "riftEff": 1
+    },
+    {
+      "mouseName": "Puppet Champion",
+      "rangeAR": 0.99261993,
+      "power": 72000,
+      "riftEff": 9
+    }
+  ],
+  "floor82": [
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.08409091,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Champion Thief",
+      "rangeAR": 0.39318182,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.40454545,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Cutpurse",
+      "rangeAR": 0.67954545,
+      "power": 6650,
+      "riftEff": 2
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.77272727,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.87045455,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.90454545,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.97954545,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 1,
+      "power": 23000,
+      "riftEff": 1.75
+    }
+  ],
+  "floor83": [
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.01521739,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.08695652,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.13913043,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.16086956,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.19782609,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.31521739,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.39565217,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Martial",
+      "rangeAR": 0.68478261,
+      "power": 8800,
+      "riftEff": 3
+    },
+    {
+      "mouseName": "Praetorian Champion",
+      "rangeAR": 0.99347826,
+      "power": 72000,
+      "riftEff": 9
+    }
+  ],
+  "floor84": [
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.0195599,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.06601467,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.15158924,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.17114914,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.23471883,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "One-Mouse Band",
+      "rangeAR": 0.50855746,
+      "power": 11750,
+      "riftEff": 4
+    },
+    {
+      "mouseName": "Champion Danseuse",
+      "rangeAR": 0.79706601,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.89486552,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.99266504,
+      "power": 100,
+      "riftEff": 1.5
+    }
+  ],
+  "floor85": [
+    {
+      "mouseName": "Magic Champion",
+      "rangeAR": 0.30348259,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.42039801,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.45771144,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.47512438,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.48507463,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.58706468,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.65920398,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Mouse of Elements",
+      "rangeAR": 0.93283582,
+      "power": 16000,
+      "riftEff": 5
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.99751244,
+      "power": 150000,
+      "riftEff": 25
+    }
+  ],
+  "floor86": [
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.09550562,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Fallen Champion Footman",
+      "rangeAR": 0.44382023,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Cursed Crusader",
+      "rangeAR": 0.6994382,
+      "power": 21500,
+      "riftEff": 6
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.75280899,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.80898877,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.8258427,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.83707865,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.95224719,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.99438202,
+      "power": 150000,
+      "riftEff": 25
+    }
+  ],
+  "floor87": [
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.13202247,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Withered Remains",
+      "rangeAR": 0.41011236,
+      "power": 29000,
+      "riftEff": 7
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.46629213,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.48595506,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.50280899,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.54213483,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Arch Champion Necromancer",
+      "rangeAR": 0.84269663,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.91853933,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.99719101,
+      "power": 150000,
+      "riftEff": 25
+    }
+  ],
+  "floor88": [],
+  "floor89": [
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.01260504,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.02521008,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Puppet Champion",
+      "rangeAR": 0.39915966,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.43697479,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.5210084,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Puppetto",
+      "rangeAR": 0.74369748,
+      "power": 2900,
+      "riftEff": 1
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.80252101,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.91596639,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 1,
+      "power": 350000,
+      "riftEff": 50
+    }
+  ],
+  "floor90": [
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.08715596,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Cutpurse",
+      "rangeAR": 0.35321101,
+      "power": 6650,
+      "riftEff": 2
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.41743119,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.44495413,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.47247706,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.58715596,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.66055046,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.68348624,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Champion Thief",
+      "rangeAR": 0.99541284,
+      "power": 72000,
+      "riftEff": 9
+    }
+  ],
+  "floor91": [
+    {
+      "mouseName": "Martial",
+      "rangeAR": 0.24444444,
+      "power": 8800,
+      "riftEff": 3
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.37777778,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.4,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.41777778,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.44444444,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Praetorian Champion",
+      "rangeAR": 0.72888889,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.81333333,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.88888889,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.98666667,
+      "power": 350000,
+      "riftEff": 50
+    }
+  ],
+  "floor92": [
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.01507538,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.06030151,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.08542714,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Champion Danseuse",
+      "rangeAR": 0.45226131,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.55778894,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.64321608,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "One-Mouse Band",
+      "rangeAR": 0.94974874,
+      "power": 11750,
+      "riftEff": 4
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.98994975,
+      "power": 150000,
+      "riftEff": 25
+    }
+  ],
+  "floor93": [
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.01724138,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Magic Champion",
+      "rangeAR": 0.35632184,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.4137931,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.41954023,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Mouse of Elements",
+      "rangeAR": 0.70689655,
+      "power": 16000,
+      "riftEff": 5
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.74137931,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.84482759,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.90229885,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.98850575,
+      "power": 350000,
+      "riftEff": 50
+    }
+  ],
+  "floor94": [
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.09677419,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.13978495,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Fallen Champion Footman",
+      "rangeAR": 0.52688172,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.60215054,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.69892473,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.79569893,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.8172043,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Cursed Crusader",
+      "rangeAR": 1,
+      "power": 21500,
+      "riftEff": 6
+    }
+  ],
+  "floor95": [
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.10714286,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Withered Remains",
+      "rangeAR": 0.35714286,
+      "power": 29000,
+      "riftEff": 7
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.375,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.44642857,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.5,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.51785714,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Arch Champion Necromancer",
+      "rangeAR": 0.80357143,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.875,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.96428571,
+      "power": 150000,
+      "riftEff": 25
+    }
+  ],
+  "floor96": [],
+  "floor97": [
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.10810811,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.18918919,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.24324324,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.2972973,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.35135135,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Puppetto",
+      "rangeAR": 0.54054054,
+      "power": 2900,
+      "riftEff": 1
+    },
+    {
+      "mouseName": "Puppet Champion",
+      "rangeAR": 1,
+      "power": 72000,
+      "riftEff": 9
+    }
+  ],
+  "floor98": [
+    {
+      "mouseName": "Cutpurse",
+      "rangeAR": 0.25641026,
+      "power": 6650,
+      "riftEff": 2
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.30769231,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.41025641,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.51282051,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.58974359,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Champion Thief",
+      "rangeAR": 0.97435897,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 1,
+      "power": 150000,
+      "riftEff": 25
+    }
+  ],
+  "floor99": [
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.1,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Praetorian Champion",
+      "rangeAR": 0.5,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.575,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.6,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.625,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.675,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.725,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Martial",
+      "rangeAR": 0.975,
+      "power": 8800,
+      "riftEff": 3
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 1,
+      "power": 23000,
+      "riftEff": 1.75
+    }
+  ],
+  "floor100": [
+    {
+      "mouseName": "Champion Danseuse",
+      "rangeAR": 0.35185185,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.40740741,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "One-Mouse Band",
+      "rangeAR": 0.68518519,
+      "power": 11750,
+      "riftEff": 4
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.70370371,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.83333334,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.92592593,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 1,
+      "power": 100,
+      "riftEff": 1.5
+    }
+  ],
+  "floor101": [
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.02857143,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Magic Champion",
+      "rangeAR": 0.4,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.42857143,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.57142857,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.62857143,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.74285714,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Mouse of Elements",
+      "rangeAR": 1,
+      "power": 16000,
+      "riftEff": 5
+    }
+  ],
+  "floor102": [
+    {
+      "mouseName": "Cursed Crusader",
+      "rangeAR": 0.25806452,
+      "power": 21500,
+      "riftEff": 6
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.35483871,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.38709678,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.51612903,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.5483871,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.61290323,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Fallen Champion Footman",
+      "rangeAR": 0.96774194,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 1,
+      "power": 38000,
+      "riftEff": 10
+    }
+  ],
+  "floor103": [
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.07407407,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Arch Champion Necromancer",
+      "rangeAR": 0.37037037,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.48148148,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.66666667,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Withered Remains",
+      "rangeAR": 0.88888889,
+      "power": 29000,
+      "riftEff": 7
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.92592593,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 1,
+      "power": 4800,
+      "riftEff": 1.75
+    }
+  ],
+  "floor104": [],
+  "floor105": [
+    {
+      "mouseName": "Puppetto",
+      "rangeAR": 0.0625,
+      "power": 2900,
+      "riftEff": 1
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.125,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.3125,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.4375,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Puppet Champion",
+      "rangeAR": 0.9375,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 1,
+      "power": 4800,
+      "riftEff": 1.75
+    }
+  ],
+  "floor106": [
+    {
+      "mouseName": "Cutpurse",
+      "rangeAR": 0.33333333,
+      "power": 6650,
+      "riftEff": 2
+    },
+    {
+      "mouseName": "Champion Thief",
+      "rangeAR": 0.88888889,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 1,
+      "power": 100,
+      "riftEff": 1.5
+    }
+  ],
+  "floor107": [
+    {
+      "mouseName": "Praetorian Champion",
+      "rangeAR": 0.16666667,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Martial",
+      "rangeAR": 0.66666667,
+      "power": 8800,
+      "riftEff": 3
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 1,
+      "power": 350000,
+      "riftEff": 50
+    }
+  ],
+  "floor108": [
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.11764706,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.23529412,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "One-Mouse Band",
+      "rangeAR": 0.47058824,
+      "power": 11750,
+      "riftEff": 4
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.52941176,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Champion Danseuse",
+      "rangeAR": 1,
+      "power": 72000,
+      "riftEff": 9
+    }
+  ],
+  "floor109": [
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 0.0625,
+      "power": 23000,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.125,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Mouse of Elements",
+      "rangeAR": 0.5,
+      "power": 16000,
+      "riftEff": 5
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.5625,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.6875,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.75,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Magic Champion",
+      "rangeAR": 1,
+      "power": 72000,
+      "riftEff": 9
+    }
+  ],
+  "floor110": [
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.07142857,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Fallen Champion Footman",
+      "rangeAR": 0.35714286,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.57142857,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Cursed Crusader",
+      "rangeAR": 0.85714286,
+      "power": 21500,
+      "riftEff": 6
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.92857143,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 1,
+      "power": 38000,
+      "riftEff": 10
+    }
+  ],
+  "floor111": [
+    {
+      "mouseName": "Arch Champion Necromancer",
+      "rangeAR": 0.41176471,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.52941176,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Withered Remains",
+      "rangeAR": 0.70588235,
+      "power": 29000,
+      "riftEff": 7
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.76470588,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.82352941,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.94117647,
+      "power": 350000,
+      "riftEff": 50
+    }
+  ],
+  "floor112": [],
+  "floor113": [
+    {
+      "mouseName": "Puppetto",
+      "rangeAR": 0.125,
+      "power": 2900,
+      "riftEff": 1
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.1875,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.4375,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.5625,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Puppet Champion",
+      "rangeAR": 0.9375,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 1,
+      "power": 4800,
+      "riftEff": 1.75
+    }
+  ],
+  "floor114": [
+    {
+      "mouseName": "Cutpurse",
+      "rangeAR": 0.14285714,
+      "power": 6650,
+      "riftEff": 2
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.28571429,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.57142857,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Champion Thief",
+      "rangeAR": 1,
+      "power": 72000,
+      "riftEff": 9
+    }
+  ],
+  "floor115": [
+    {
+      "mouseName": "Praetorian Champion",
+      "rangeAR": 0.25,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Martial",
+      "rangeAR": 0.75,
+      "power": 8800,
+      "riftEff": 3
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 1,
+      "power": 100,
+      "riftEff": 1.5
+    }
+  ],
+  "floor116": [
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.11111111,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Mouse of Elements",
+      "rangeAR": 0.22222222,
+      "power": 16000,
+      "riftEff": 5
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.33333333,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.44444444,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "One-Mouse Band",
+      "rangeAR": 0.88888889,
+      "power": 11750,
+      "riftEff": 4
+    },
+    {
+      "mouseName": "Champion Danseuse",
+      "rangeAR": 1,
+      "power": 72000,
+      "riftEff": 9
+    }
+  ],
+  "floor117": [
+    {
+      "mouseName": "Magic Champion",
+      "rangeAR": 0.5,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 0.75,
+      "power": 4800,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 1,
+      "power": 100,
+      "riftEff": 1.5
+    }
+  ],
+  "floor118": [
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.5,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Lumi-lancer",
+      "rangeAR": 1,
+      "power": 23000,
+      "riftEff": 1.75
+    }
+  ],
+  "floor119": [
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.14285714,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.28571429,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Arch Champion Necromancer",
+      "rangeAR": 1,
+      "power": 72000,
+      "riftEff": 9
+    }
+  ],
+  "floor120": [],
+  "floor121": [
+    {
+      "mouseName": "Puppet Champion",
+      "rangeAR": 0.28571429,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Champion Thief",
+      "rangeAR": 0.35714286,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.42857143,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Berzerker",
+      "rangeAR": 0.5,
+      "power": 8250,
+      "riftEff": 1.75
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.57142857,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.71428571,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Puppetto",
+      "rangeAR": 0.85714286,
+      "power": 2900,
+      "riftEff": 1
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 1,
+      "power": 4800,
+      "riftEff": 1.75
+    }
+  ],
+  "floor122": [
+    {
+      "mouseName": "Cutpurse",
+      "rangeAR": 0.5,
+      "power": 6650,
+      "riftEff": 2
+    },
+    {
+      "mouseName": "Unwavering Adventurer",
+      "rangeAR": 1,
+      "power": 4800,
+      "riftEff": 1.75
+    }
+  ],
+  "floor123": [
+    {
+      "mouseName": "Martial",
+      "rangeAR": 0.25,
+      "power": 8800,
+      "riftEff": 3
+    },
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.33333333,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 0.5,
+      "power": 38000,
+      "riftEff": 10
+    },
+    {
+      "mouseName": "Praetorian Champion",
+      "rangeAR": 0.91666667,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 1,
+      "power": 350000,
+      "riftEff": 50
+    }
+  ],
+  "floor124": [
+    {
+      "mouseName": "Soldier of the Shade",
+      "rangeAR": 0.22222222,
+      "power": 350000,
+      "riftEff": 50
+    },
+    {
+      "mouseName": "One-Mouse Band",
+      "rangeAR": 0.44444444,
+      "power": 11750,
+      "riftEff": 4
+    },
+    {
+      "mouseName": "Champion Danseuse",
+      "rangeAR": 0.88888889,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Possessed Armaments",
+      "rangeAR": 1,
+      "power": 38000,
+      "riftEff": 10
+    }
+  ],
+  "floor125": [
+    {
+      "mouseName": "Terrified Adventurer",
+      "rangeAR": 0.14285714,
+      "power": 100,
+      "riftEff": 1.5
+    },
+    {
+      "mouseName": "Prestigious Adventurer",
+      "rangeAR": 0.28571429,
+      "power": 150000,
+      "riftEff": 25
+    },
+    {
+      "mouseName": "Magic Champion",
+      "rangeAR": 0.57142857,
+      "power": 72000,
+      "riftEff": 9
+    },
+    {
+      "mouseName": "Mouse of Elements",
+      "rangeAR": 1,
+      "power": 16000,
+      "riftEff": 5
+    }
+  ],
+  "floor126": [],
+  "floor127": [],
+  "floor128": [],
+  "floor129": [],
+  "floor130": [],
+  "floor131": [],
+  "floor132": [],
+  "floor133": [],
+  "floor134": [],
+  "floor135": [],
+  "floor136": [],
+  "floor137": [],
+  "floor138": []
+}

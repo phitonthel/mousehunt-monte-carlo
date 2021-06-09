@@ -61,7 +61,7 @@ export class H {
     return steps
   }
   
-  static nextStepsforTE(eclipseCount: number) {
+  static nextStepsforEclipse(eclipseCount: number) {
     let steps = 0
     for (let te = 0; te < eclipseCount + 1; te++) {
       steps += ((20 + (te * 10)) * 7) + te
@@ -69,9 +69,9 @@ export class H {
     return steps
   }
   
-  static isTE(playerSteps: number, stepsAdvancement: number, eclipseCount: number) {
+  static isEclipse(playerSteps: number, stepsAdvancement: number, eclipseCount: number) {
     let steps = playerSteps + stepsAdvancement
-    if (steps >= this.nextStepsforTE(eclipseCount)) {
+    if (steps >= this.nextStepsforEclipse(eclipseCount)) {
       return true
     } else {
       return false
@@ -80,8 +80,8 @@ export class H {
   
   static stepsPlacement(playerSteps: number, stepsAdvancement: number, eclipseCount: number) {
     let steps = playerSteps + stepsAdvancement
-    if (steps >= this.nextStepsforTE(eclipseCount)) {
-      return this.nextStepsforTE(eclipseCount)
+    if (steps >= this.nextStepsforEclipse(eclipseCount)) {
+      return this.nextStepsforEclipse(eclipseCount)
     } else {
       return steps
     }
