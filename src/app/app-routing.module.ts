@@ -1,10 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-// Interviews
-import { InterviewsComponent } from './interviews/interviews.component'
-import { FormComponent } from './form/form.component'
-
 // Mousehunt
 import { VriftComponent } from './vrift/vrift.component';
 import { DludhuComponent } from './dludhu/dludhu.component';

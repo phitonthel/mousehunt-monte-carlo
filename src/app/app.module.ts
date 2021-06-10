@@ -19,8 +19,6 @@ import {InputTextModule} from 'primeng/inputtext';
 import {RippleModule} from 'primeng/ripple';
 
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { InterviewsComponent } from './interviews/interviews.component';
-import { FormComponent } from './form/form.component';
 import { AboutComponent } from './about/about.component';
 
 // Mousehunt
@@ -45,8 +43,6 @@ import { DludhuComponent } from './dludhu/dludhu.component';
   declarations: [
     AppComponent,
     PageNotFoundComponent,
-    InterviewsComponent,
-    FormComponent,
     AboutComponent,
     VriftComponent,
     DludhuComponent,

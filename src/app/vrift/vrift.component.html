@@ -61,49 +61,29 @@
 
         <!-- Catch Rate Estimator -->
         <div *ngIf="enableCRE">
+
           <div class="form-group">
-            <label for="speedLvl">Normal Mouse CRE</label>
+            <label for="speedLvl">Trap Power</label>
             <input 
-              [(ngModel)]="cre.normal" 
-              name="creNormal" 
+              [(ngModel)]="playerSetting.power" 
+              name="power" 
               type="number" 
               class="form-control" 
-              id="creNormal" 
-              placeholder="Enter Normal Mouse CRE">
+              id="power" 
+              placeholder="Enter Trap Power">
           </div>
 
           <div class="form-group">
-            <label for="speedLvl">Terrified Adventure CRE</label>
+            <label for="speedLvl">Luck</label>
             <input 
-              [(ngModel)]="cre.ta" 
-              name="creTA" 
+              [(ngModel)]="playerSetting.luck" 
+              name="luck" 
               type="number" 
               class="form-control" 
-              id="creTA" 
-              placeholder="Enter Terrified Adventure CRE">
+              id="luck" 
+              placeholder="Enter Luck">
           </div>
 
-          <div class="form-group">
-            <label for="speedLvl">Bulwark CRE</label>
-            <input 
-              [(ngModel)]="cre.bulwark" 
-              name="creBulwark" 
-              type="number" 
-              class="form-control" 
-              id="creBulwark" 
-              placeholder="Enter Bulwark CRE">
-          </div>
-
-          <div class="form-group">
-            <label for="speedLvl">Eclipse CRE</label>
-            <input 
-              [(ngModel)]="cre.eclipse" 
-              name="creEclipse" 
-              type="number" 
-              class="form-control" 
-              id="creEclipse" 
-              placeholder="Enter Eclipse CRE">
-          </div>
         </div>
 
         <!-- Setting -->
@@ -144,7 +124,7 @@
       </form>
       <button *ngIf="enableCRE" type="button" class="btn btn-dark m-3" (click)="hideCRE()">Hide CRE</button>
       <button *ngIf="!enableCRE" type="button" class="btn btn-dark m-3" (click)="showCRE()">Show CRE</button>
-      <button type="button" class="btn btn-dark m-3" (click)="loading()">Run the Simulation</button>
+      <button type="button" class="btn btn-dark m-3" (click)="run()">Run the Simulation</button>
     </div>
 
     <div class="col-8">
@@ -162,7 +142,21 @@
         <div *ngFor="let message of messages" class=" d-flex justify-content-center">
           <div class="card col-8">
             <div class="card-body">
-              {{message}}
+              <span *ngIf="nPlayers > 1">{{message}}</span>
+              <div *ngIf="nPlayers == 1">
+                Hunt {{message.hunt}} - 
+                <span *ngIf="message.res == 'MISSED'" style="font-weight: bold; color: red;">
+                  {{message.res}}
+                </span>
+                <span *ngIf="message.res == 'CAUGHT'" style="font-weight: bold; color: green;">
+                  {{message.res}}
+                </span>
+                <b>{{message.mouse}}</b>, I advance <b>{{message.advancement}}</b> steps
+                <br>
+                stamina: <b>{{message.stamina}}</b>,
+                currentFloor: <b>{{message.floors}}</b>, 
+                currentSteps: <b>{{message.steps}}</b>
+              </div>
             </div>
           </div>
         </div>

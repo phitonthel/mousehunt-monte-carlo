@@ -1,5 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { H } from './helpers'
+import { H } from './helpers/helpers'
+import { M } from './helpers/mechanics'
+
+// import data
+import vriftData from './data/vrift-mouse-pool-all'
 
 @Component({
   selector: 'app-vrift',
@@ -8,14 +12,18 @@ import { H } from './helpers'
 })
 export class VriftComponent implements OnInit {
   messages: any[] = []
-  nPlayers: number = 1000
+  nPlayers: number = 1
   actionType: string = 'floor'
+  data: any = vriftData
+
+
   debug: boolean = false
   debugMessages: string[] = []
 
   floorsData: any[] = []
   eclipseData: any[] = []
   stepsData: any[] = []
+  detailedData: any[] = []
   playersData: any[] = []
 
   stats = {
@@ -30,6 +38,9 @@ export class VriftComponent implements OnInit {
   playerSetting = {
     stamina: 100,
     steps: 0,
+    power: 60000,
+    luck: 70,
+    ultimateCharm: false,
     floors: 1,
     eclipseCount: 0,
     eclipsePhase: false
@@ -57,12 +68,12 @@ export class VriftComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  loading(): void {
+  run(): void {
     this.messages = ['Loading...']
 
     // assign new value to player's floor, eclipseCount, eclipsePhase based on steps
-    this.playerSetting.floors = H.stepsToFloors(this.playerSetting.steps)
-    this.playerSetting.eclipseCount = Math.floor(this.playerSetting.floors/8)
+    this.playerSetting.floors = M.stepsToFloors(this.playerSetting.steps)
+    this.playerSetting.eclipseCount = Math.floor(this.playerSetting.floors / 8)
 
     console.log(this.playerSetting);
     console.log(this.stats);
@@ -77,50 +88,88 @@ export class VriftComponent implements OnInit {
     this.messages.push(JSON.stringify(this.settings, null, 2))
   }
 
+  simulation() {
+    const player = JSON.parse(JSON.stringify(this.playerSetting))
+    const players = []
+    // hunt until run out of stamina
+    for (let hunt = 0; hunt < Infinity; hunt++) {
+      if (player.stamina <= 0) break
+      player.stamina = player.stamina - 1
+
+      // new algoritms
+      let mode = 'uu'
+
+      // if TE 13+, use micePool 105-112
+      let micePool = []
+      if (player.floors < 104) {
+        micePool = this.data[mode][`floor${player.floors}`].mice
+      } else if (player.floors % 8 == 0) {
+        micePool = this.data[mode][`floor8`].mice
+      } else {
+        const f = 104 + (player.floors % 8)
+        micePool = this.data[mode][`floor${f}`].mice
+      }
+
+      // determine which mice is attracted, return an object (name, power, etc)
+      const miceAttracted = M.attractsMice(micePool)
+
+      // determines if FTC or not
+      let result = M.catchMouse(miceAttracted, player.power, player.luck)
+      if (miceAttracted.name == 'Shade of the Eclipse' || miceAttracted.name == 'The Total Eclipse') {
+        if (player.ultimateCharm) {
+          result = true
+        }
+      }
+
+      // eclipse count++, siphon
+      if (miceAttracted.name == 'Shade of the Eclipse' || miceAttracted.name == 'The Total Eclipse') {
+        if (result) {
+          player.eclipseCount++
+          player.stamina += this.stats.siphonLvl * 5 * this.stats.superSiphon
+        }
+      }
+
+      // determines the advancement
+      const advancement = M.stepsAdvancement(miceAttracted.name, result, this.stats)
+      // determines steps placement, can't past the Eclipse unless caught
+      const placement = M.stepsPlacement(player.steps, advancement, player.eclipseCount)
+
+      // check whether the advancement can set the player back to previous floor
+      const isFallDown = M.isFallingDown(player.steps, advancement)
+
+      // set new value to player
+      isFallDown
+        ? player.steps = M.floorsToSteps(player.floors)
+        : player.steps = placement
+      player.floors = M.stepsToFloors(player.steps)
+
+      // console.log(miceAttracted.name, result, player.steps, player.floors, advancement, player.stamina);
+
+      if (this.nPlayers == 1) {
+        let res
+        result 
+          ? res = 'CAUGHT'
+          : res = 'MISSED'
+        let message = { res, advancement,
+          TE: player.eclipseCount,
+          hunt: hunt+1,
+          stamina: player.stamina,
+          mouse: miceAttracted.name, 
+          floors: player.floors, 
+          steps: player.steps }
+        this.detailedData.push(message)
+      }
+    }
+    return player
+  }
+
   monteCarlo() {
     const players = []
-  
+
     // simulate each player
     for (let i = 0; i < this.nPlayers; i++) {
-      const player = JSON.parse(JSON.stringify(this.playerSetting))
-  
-      // hunt until run out of stamina
-      for (let hunt = 0; hunt < Infinity; hunt++) {
-        if (player.stamina <= 0) break
-        player.stamina = player.stamina - 1
-  
-        // if TE phase
-        if (player.eclipsePhase) {
-          const caught = H.isCaught('eclipse', this.cre)
-          // if (this.debug) { console.log(`${hunt+1} TE:`, caught) }
-          if (caught) {
-            player.steps += H.stepsAdvancement('eclipse', caught, this.stats)
-            player.stamina += this.stats.siphonLvl * 5 * this.stats.superSiphon
-            player.eclipsePhase = false
-            player.eclipseCount ++
-            player.floors++
-            // if (this.debug) { console.log(`${hunt+1} TE:`, caught, player.steps) }
-          }
-          continue
-        }
-  
-        // if not TE phase
-        const attractedMouse = H.miceAttracted(player.floors) // which mice is attracted
-        const result = H.isCaught(attractedMouse, this.cre) // FTC or not (booleean)
-        const advancement = H.stepsAdvancement(attractedMouse, result, this.stats) // how many steps is increase or decrease
-  
-        // check whether the advancement can set the player back to previous floor
-        const isFallDown = H.isFallingDown(player.steps, advancement)
-  
-        // set new value to player
-        player.eclipsePhase = H.isEclipse(player.steps, advancement, player.eclipseCount)
-        isFallDown
-          ? player.steps = H.floorsToSteps(player.floors)
-          : player.steps = H.stepsPlacement(player.steps, advancement, player.eclipseCount)
-        player.floors = H.stepsToFloors(player.steps)
-        // if (this.debug) { console.log(`${hunt+1} Normal:`, player.steps) }
-      }
-  
+      const player = (this.simulation())
+
       // extract the necessary data
       players.push({
         steps: player.steps,
@@ -129,17 +178,12 @@ export class VriftComponent implements OnInit {
       })
     }
 
-    // filter the data
-    // this.floorsData = players.filter(function (player) {
-    //   return player.steps <= 1000
-    // });
-
     // count data
     this.floorsData = []
     for (let i = 0; i < 200; i++) {
       const count = players.filter(player => player.floors === i).length;
       if (count > 0) {
-        this.floorsData.push(`Floors ${i}: ${count} players (${((count/players.length)*100).toFixed(2)}%)`)
+        this.floorsData.push(`Floors ${i}: ${count} players (${((count / players.length) * 100).toFixed(2)}%)`)
       }
     }
 
@@ -147,16 +191,18 @@ export class VriftComponent implements OnInit {
     for (let i = 0; i < 25; i++) {
       const count = players.filter(player => player.eclipseCount === i).length;
       if (count > 0) {
-        this.eclipseData.push(`TE ${i}: ${count} players (${((count/players.length)*100).toFixed(2)}%)`)
+        this.eclipseData.push(`TE ${i}: ${count} players (${((count / players.length) * 100).toFixed(2)}%)`)
       }
     }
 
-    // saved players data
+    // save players data
     this.playersData = players
 
     // show in Journals
-    this.messages = this.floorsData
-    
+    this.nPlayers == 1
+      ? this.messages = this.detailedData
+      : this.messages = this.floorsData
+
   }
 
   fire(value: number) { this.stats.fire = value }
@@ -168,7 +214,7 @@ export class VriftComponent implements OnInit {
     for (let i = 0; i < 10000; i++) {
       const count = this.playersData.filter(player => player.steps === i).length;
       if (count > 0) {
-        this.stepsData.push(`Steps ${i+1}: ${count} players (${((count/this.playersData.length)*100).toFixed(2)}%)`)
+        this.stepsData.push(`Steps ${i + 1}: ${count} players (${((count / this.playersData.length) * 100).toFixed(2)}%)`)
       }
     }
     this.messages = this.stepsData
