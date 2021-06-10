@@ -60,7 +60,7 @@
         </div>
 
         <!-- Catch Rate Estimator -->
-        <div *ngIf="enableCRE">
+        <div>
 
           <div class="form-group">
             <label for="speedLvl">Trap Power</label>
@@ -122,8 +122,8 @@
         </div>
 
       </form>
-      <button *ngIf="enableCRE" type="button" class="btn btn-dark m-3" (click)="hideCRE()">Hide CRE</button>
-      <button *ngIf="!enableCRE" type="button" class="btn btn-dark m-3" (click)="showCRE()">Show CRE</button>
+      <!-- <button *ngIf="enableCRE" type="button" class="btn btn-dark m-3" (click)="hideCRE()">Hide CRE</button>
+      <button *ngIf="!enableCRE" type="button" class="btn btn-dark m-3" (click)="showCRE()">Show CRE</button> -->
       <button type="button" class="btn btn-dark m-3" (click)="run()">Run the Simulation</button>
     </div>
 

@@ -70,6 +70,7 @@ export class VriftComponent implements OnInit {
 
   run(): void {
     this.messages = ['Loading...']
+    this.detailedData = []
 
     // assign new value to player's floor, eclipseCount, eclipsePhase based on steps
     this.playerSetting.floors = M.stepsToFloors(this.playerSetting.steps)
@@ -77,13 +78,12 @@ export class VriftComponent implements OnInit {
 
     console.log(this.playerSetting);
     console.log(this.stats);
-    console.log(this.cre);
     setTimeout(() => {
       this.monteCarlo()
     }, 100)
   }
 
-  monteCarloDev() {
+  runDev() {
     this.messages = [JSON.stringify(this.stats, null, 2)]
     this.messages.push(JSON.stringify(this.settings, null, 2))
   }
@@ -91,8 +91,9 @@ export class VriftComponent implements OnInit {
   simulation() {
     const player = JSON.parse(JSON.stringify(this.playerSetting))
     const players = []
+    
     // hunt until run out of stamina
-    for (let hunt = 0; hunt < Infinity; hunt++) {
+    for (let hunt = 0; hunt < 100000; hunt++) {
       if (player.stamina <= 0) break
       player.stamina = player.stamina - 1
 
@@ -141,7 +142,7 @@ export class VriftComponent implements OnInit {
       isFallDown
         ? player.steps = M.floorsToSteps(player.floors)
         : player.steps = placement
-      player.floors = M.stepsToFloors(player.steps)
+      player.floors = M.stepsToFloors(player.steps).toFixed(0)
 
       // console.log(miceAttracted.name, result, player.steps, player.floors, advancement, player.stamina);
 
@@ -168,7 +169,7 @@ export class VriftComponent implements OnInit {
 
     // simulate each player
     for (let i = 0; i < this.nPlayers; i++) {
-      const player = (this.simulation())
+      const player = this.simulation()
 
       // extract the necessary data
       players.push({
@@ -202,6 +203,7 @@ export class VriftComponent implements OnInit {
     this.nPlayers == 1
       ? this.messages = this.detailedData
       : this.messages = this.floorsData
+    
 
   }
 
@@ -221,7 +223,7 @@ export class VriftComponent implements OnInit {
   }
   seeFloorData() { this.messages = this.floorsData }
   seeEclipseData() { this.messages = this.eclipseData }
-  showCRE() { this.enableCRE = true }
-  hideCRE() { this.enableCRE = false }
+  // showCRE() { this.enableCRE = true }
+  // hideCRE() { this.enableCRE = false }
 
 }
