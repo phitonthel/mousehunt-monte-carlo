@@ -78,6 +78,11 @@ export class VriftComponent implements OnInit {
     this.playerSetting.stamina = Number(this.playerSetting.stamina)
     this.playerSetting.steps = Number(this.playerSetting.steps)
 
+    // convert the settings
+    this.settings.fire ? this.stats.fire = 1 : this.stats.fire = 0
+    this.settings.stringStepping ? this.stats.stringStepping = 2 : this.stats.stringStepping = 1
+    this.settings.superSiphon ? this.stats.superSiphon = 2 : this.stats.stringStepping = 1
+
     console.log(this.playerSetting);
     console.log(this.settings);
     console.log(this.stats);
@@ -230,10 +235,6 @@ export class VriftComponent implements OnInit {
 
   }
 
-  fire(value: number) { this.stats.fire = value }
-  stringStepping(value: number) { this.stats.stringStepping = value }
-  superSiphon(value: number) { this.stats.superSiphon = value }
-
   seeStepsData() {
     this.stepsData = []
     for (let i = 0; i < 10000; i++) {
@@ -249,6 +250,10 @@ export class VriftComponent implements OnInit {
   seeDetailedData() { this.messages = this.detailedData, this.isDetailed = true }
   seeFloorData() { this.messages = this.floorsData, this.isDetailed = false }
   seeEclipseData() { this.messages = this.eclipseData, this.isDetailed = false }
+
+  // fire(value: number) { this.stats.fire = value }
+  // stringStepping(value: number) { this.stats.stringStepping = value }
+  // superSiphon(value: number) { this.stats.superSiphon = value }
   // showCRE() { this.enableCRE = true }
   // hideCRE() { this.enableCRE = false }
 
