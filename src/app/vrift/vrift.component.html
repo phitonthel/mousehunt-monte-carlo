@@ -5,11 +5,11 @@
       <form>
 
         <div class="form-group">
-          <label for="nPlayers">Iteration</label>
+          <label for="nPlayers">Number of Players</label>
           <input 
             [(ngModel)]="nPlayers" 
             name="nPlayers" 
-            type="number" 
+            type="text" pattern="[0-9]{10}"
             class="form-control" 
             id="nPlayers" 
             placeholder="Enter Number of Players">
@@ -20,7 +20,8 @@
           <input 
             [(ngModel)]="playerSetting.stamina" 
             name="stamina" 
-            type="number" 
+            type="text" 
+            pattern="[0-9]{10}"
             class="form-control" 
             id="stamina" 
             placeholder="Enter Stamina">
@@ -31,32 +32,39 @@
           <input 
             [(ngModel)]="playerSetting.steps" 
             name="steps" 
-            type="number" 
+            type="text" pattern="[0-9]{10}"
             class="form-control" 
             id="steps" 
             placeholder="Enter Current Steps">
         </div>
 
         <div class="form-group">
-          <label for="speedLvl">Speed Level</label>
-          <input 
-            [(ngModel)]="stats.speedLvl" 
-            name="speedLvl" 
-            type="number" 
-            class="form-control" 
-            id="speedLvl" 
-            placeholder="Enter Speed Level">
+          <label for="speedLvl">Speed Level </label>
+          <span *ngIf="settings.fire == true" class="mx-2">(+1 with CF)</span>
+          <select
+            [(ngModel)]="stats.speedLvl"
+            [ngModelOptions]="{standalone: true}"
+            class="form-select">
+            <option 
+              *ngFor="let option of speedLvlOptions" 
+              [value]="option">
+              {{option}}
+            </option>
+          </select>
         </div>
 
         <div class="form-group">
           <label for="siphonLvl">Siphon Level</label>
-          <input 
-            [(ngModel)]="stats.siphonLvl" 
-            name="siphonLvl" 
-            type="number" 
-            class="form-control" 
-            id="siphonLvl" 
-            placeholder="Enter Sync Level">
+          <select
+            [(ngModel)]="stats.siphonLvl"
+            [ngModelOptions]="{standalone: true}"
+            class="form-select">
+            <option 
+              *ngFor="let option of siphonLvlOptions" 
+              [value]="option">
+              {{option}}
+            </option>
+          </select>
         </div>
 
         <!-- Catch Rate Estimator -->
@@ -67,7 +75,7 @@
             <input 
               [(ngModel)]="playerSetting.power" 
               name="power" 
-              type="number" 
+              type="number" step="1"
               class="form-control" 
               id="power" 
               placeholder="Enter Trap Power">
@@ -78,7 +86,7 @@
             <input 
               [(ngModel)]="playerSetting.luck" 
               name="luck" 
-              type="number" 
+              type="number" step="1"
               class="form-control" 
               id="luck" 
               placeholder="Enter Luck">
@@ -119,6 +127,26 @@
             id="superSiphon"
             (change)="superSiphon(settings.superSiphon ? 2 : 1)"
             [(ngModel)]="settings.superSiphon">
+        </div>
+
+        <div class="form-check form-switch">
+          <label class="form-check-label" for="mode">Ultimate Umbra</label>
+          <input 
+            class="form-check-input"
+            name="mode"
+            type="checkbox" 
+            id="mode"
+            [(ngModel)]="settings.mode">
+        </div>
+
+        <div class="form-check form-switch">
+          <label class="form-check-label" for="ultimateCharm">UC on Eclipse</label>
+          <input 
+            class="form-check-input"
+            name="ultimateCharm"
+            type="checkbox" 
+            id="ultimateCharm"
+            [(ngModel)]="settings.ultimateCharm">
         </div>
 
       </form>

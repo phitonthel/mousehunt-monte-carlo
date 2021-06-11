@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { H } from './helpers/helpers'
 import { M } from './helpers/mechanics'
+import Swal from 'sweetalert2'
 
 // import data
 import vriftData from './data/vrift-mouse-pool-all'
@@ -15,6 +15,9 @@ export class VriftComponent implements OnInit {
   nPlayers: number = 1
   actionType: string = 'floor'
   data: any = vriftData
+
+  speedLvlOptions: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+  siphonLvlOptions: number[] = [1, 2, 3, 4, 5]
 
   debug: boolean = false
   debugMessages: string[] = []
@@ -46,11 +49,11 @@ export class VriftComponent implements OnInit {
   }
 
   settings = {
-    fire: false,
-    stringStepping: false,
-    superSiphon: false,
-    mode: true,
-    ultimateCharm: false,
+    fire: true,
+    stringStepping: true,
+    superSiphon: true,
+    mode: true, //true = UU, false == normal
+    ultimateCharm: false, //UC on Eclipse
   }
 
   constructor() { }
@@ -61,13 +64,46 @@ export class VriftComponent implements OnInit {
   run(): void {
     this.messages = ['Loading...']
     this.detailedData = []
+    this.floorsData = []
+    this.eclipseData = []
 
     // assign new value to player's floor, eclipseCount, based on steps
     this.playerSetting.floors = M.stepsToFloors(this.playerSetting.steps)
     this.playerSetting.eclipseCount = Math.floor(this.playerSetting.floors / 8)
 
+    // convert string to number because JS sucks
+    this.stats.speedLvl = Number(this.stats.speedLvl)
+    this.stats.siphonLvl = Number(this.stats.siphonLvl)
+    this.nPlayers = Number(this.nPlayers)
+    this.playerSetting.stamina = Number(this.playerSetting.stamina)
+    this.playerSetting.steps = Number(this.playerSetting.steps)
+
     console.log(this.playerSetting);
+    console.log(this.settings);
     console.log(this.stats);
+
+    // validation
+    if (isNaN(this.nPlayers) || isNaN(this.playerSetting.stamina) || isNaN(this.playerSetting.steps)) {
+      Swal.fire({
+        icon: 'error',
+        text: 'Invalid input!',
+      })
+      this.messages = ['Error!']
+      this.isDetailed = false
+      return
+    }
+
+    if (!Number.isInteger(this.nPlayers) || !Number.isInteger(this.playerSetting.stamina) || !Number.isInteger(this.playerSetting.steps)) {
+      Swal.fire({
+        icon: 'error',
+        text: 'Integer only!',
+      })
+      this.messages = ['Error!']
+      this.isDetailed = false
+      return
+    }
+
+    // run
     setTimeout(() => {
       this.monteCarlo()
     }, 100)
@@ -82,7 +118,7 @@ export class VriftComponent implements OnInit {
     const player = JSON.parse(JSON.stringify(this.playerSetting))
     const players = []
     const mode = this.settings.mode ? 'uu' : 'normal'
-    
+
     // hunt until run out of stamina
     for (let hunt = 0; hunt < 100000; hunt++) {
       if (player.stamina <= 0) break
@@ -122,30 +158,31 @@ export class VriftComponent implements OnInit {
       const advancement = M.stepsAdvancement(miceAttracted.name, result, this.stats)
       // determines steps placement, can't past the Eclipse unless caught
       const placement = M.stepsPlacement(player.steps, advancement, player.eclipseCount)
-
       // check whether the advancement can set the player back to previous floor
       const isFallDown = M.isFallingDown(player.steps, advancement)
 
       // set new value to player
       isFallDown
         ? player.steps = M.floorsToSteps(player.floors)
-        : player.steps = placement
+        : player.steps = placement < 0 ? 0 : placement
       player.floors = M.stepsToFloors(player.steps)
 
       // console.log(miceAttracted.name, result, player.steps, player.floors, advancement, player.stamina);
 
       if (iteration == 0) {
         let res
-        result 
+        result
           ? res = 'CAUGHT'
           : res = 'MISSED'
-        let message = { res, advancement,
+        let message = {
+          res, advancement,
           TE: player.eclipseCount,
-          hunt: hunt+1,
+          hunt: hunt + 1,
           stamina: player.stamina,
-          mouse: miceAttracted.name, 
-          floors: player.floors, 
-          steps: player.steps }
+          mouse: miceAttracted.name,
+          floors: player.floors,
+          steps: player.steps
+        }
         this.detailedData.push(message)
       }
     }
@@ -190,7 +227,7 @@ export class VriftComponent implements OnInit {
     // show in Journals
     this.messages = this.detailedData
     this.isDetailed = true
-    
+
   }
 
   fire(value: number) { this.stats.fire = value }
