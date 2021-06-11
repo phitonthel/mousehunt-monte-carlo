@@ -67,9 +67,9 @@ export class M {
   }
   
   static nextStepsforEclipse(eclipseCount: number) {
-    let steps = 0
+    let steps = eclipseCount
     for (let te = 0; te < eclipseCount + 1; te++) {
-      steps += ((20 + (te * 10)) * 7) + te
+      steps += (20 + (te * 10)) * 7
     }
     return steps
   }
@@ -113,8 +113,8 @@ export class M {
     for (let i = 0; i < Infinity; i++) {
   
       if (floors % 8 == 0) {
-        steps -= eclipseCount
-        if (steps <= 0) break
+        steps -= 1
+        if (steps < 0) break
         eclipseCount++
         floors ++
       }

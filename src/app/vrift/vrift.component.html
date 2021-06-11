@@ -60,7 +60,7 @@
         </div>
 
         <!-- Catch Rate Estimator -->
-        <div *ngIf="enableCRE">
+        <div>
 
           <div class="form-group">
             <label for="speedLvl">Trap Power</label>
@@ -122,8 +122,8 @@
         </div>
 
       </form>
-      <button *ngIf="enableCRE" type="button" class="btn btn-dark m-3" (click)="hideCRE()">Hide CRE</button>
-      <button *ngIf="!enableCRE" type="button" class="btn btn-dark m-3" (click)="showCRE()">Show CRE</button>
+      <!-- <button *ngIf="enableCRE" type="button" class="btn btn-dark m-3" (click)="hideCRE()">Hide CRE</button>
+      <button *ngIf="!enableCRE" type="button" class="btn btn-dark m-3" (click)="showCRE()">Show CRE</button> -->
       <button type="button" class="btn btn-dark m-3" (click)="run()">Run the Simulation</button>
     </div>
 
@@ -134,16 +134,25 @@
 
       <div *ngIf="messages.length > 0" class="text-center">
         <!-- <button type="button" class="btn btn-outline-primary m-3" (click)="seeStepsData()">See based on steps</button> -->
+        <button type="button" class="btn btn-outline-primary m-3" (click)="seeDetailedData()">Detailed</button>
         <button type="button" class="btn btn-outline-primary m-3" (click)="seeFloorData()">See based on floors</button>
         <button type="button" class="btn btn-outline-primary m-3" (click)="seeEclipseData()">See based on Eclipse</button>
+      </div>
+
+      <!-- shows info -->
+      <div *ngIf="isDetailed" class=" d-flex justify-content-center">
       </div>
 
       <div class="justify-content-center">
         <div *ngFor="let message of messages" class=" d-flex justify-content-center">
           <div class="card col-8">
             <div class="card-body">
-              <span *ngIf="nPlayers > 1">{{message}}</span>
-              <div *ngIf="nPlayers == 1">
+
+              <!-- for floors/TE -->
+              <span *ngIf="!isDetailed" [innerHTML]="message"></span>
+
+              <!-- for detailed -->
+              <div *ngIf="isDetailed">
                 Hunt {{message.hunt}} - 
                 <span *ngIf="message.res == 'MISSED'" style="font-weight: bold; color: red;">
                   {{message.res}}

@@ -8,14 +8,13 @@ import vriftData from './data/vrift-mouse-pool-all'
 @Component({
   selector: 'app-vrift',
   templateUrl: './vrift.component.html',
-  styleUrls: ['./vrift.component.css']
+  styleUrls: ['./vrift.component.css'],
 })
 export class VriftComponent implements OnInit {
   messages: any[] = []
   nPlayers: number = 1
   actionType: string = 'floor'
   data: any = vriftData
-
 
   debug: boolean = false
   debugMessages: string[] = []
@@ -25,6 +24,8 @@ export class VriftComponent implements OnInit {
   stepsData: any[] = []
   detailedData: any[] = []
   playersData: any[] = []
+
+  isDetailed: boolean = false
 
   stats = {
     speedLvl: 10,
@@ -40,28 +41,17 @@ export class VriftComponent implements OnInit {
     steps: 0,
     power: 60000,
     luck: 70,
-    ultimateCharm: false,
     floors: 1,
     eclipseCount: 0,
-    eclipsePhase: false
-  }
-
-  cre = {
-    normal: 0.8,
-    ta: 1,
-    bulwark: 0.55,
-    eclipse: 0.5
   }
 
   settings = {
     fire: false,
     stringStepping: false,
     superSiphon: false,
-    uu: true
+    mode: true,
+    ultimateCharm: false,
   }
-
-  // show/disable
-  enableCRE = false
 
   constructor() { }
 
@@ -70,43 +60,42 @@ export class VriftComponent implements OnInit {
 
   run(): void {
     this.messages = ['Loading...']
+    this.detailedData = []
 
-    // assign new value to player's floor, eclipseCount, eclipsePhase based on steps
+    // assign new value to player's floor, eclipseCount, based on steps
     this.playerSetting.floors = M.stepsToFloors(this.playerSetting.steps)
     this.playerSetting.eclipseCount = Math.floor(this.playerSetting.floors / 8)
 
     console.log(this.playerSetting);
     console.log(this.stats);
-    console.log(this.cre);
     setTimeout(() => {
       this.monteCarlo()
     }, 100)
   }
 
-  monteCarloDev() {
+  runDev() {
     this.messages = [JSON.stringify(this.stats, null, 2)]
     this.messages.push(JSON.stringify(this.settings, null, 2))
   }
 
-  simulation() {
+  simulation(iteration: number) {
     const player = JSON.parse(JSON.stringify(this.playerSetting))
     const players = []
+    const mode = this.settings.mode ? 'uu' : 'normal'
+    
     // hunt until run out of stamina
-    for (let hunt = 0; hunt < Infinity; hunt++) {
+    for (let hunt = 0; hunt < 100000; hunt++) {
       if (player.stamina <= 0) break
       player.stamina = player.stamina - 1
 
-      // new algoritms
-      let mode = 'uu'
-
       // if TE 13+, use micePool 105-112
       let micePool = []
-      if (player.floors < 104) {
+      if (player.floors < 48) {
         micePool = this.data[mode][`floor${player.floors}`].mice
       } else if (player.floors % 8 == 0) {
         micePool = this.data[mode][`floor8`].mice
       } else {
-        const f = 104 + (player.floors % 8)
+        const f = 48 + (player.floors % 8)
         micePool = this.data[mode][`floor${f}`].mice
       }
 
@@ -116,7 +105,7 @@ export class VriftComponent implements OnInit {
       // determines if FTC or not
       let result = M.catchMouse(miceAttracted, player.power, player.luck)
       if (miceAttracted.name == 'Shade of the Eclipse' || miceAttracted.name == 'The Total Eclipse') {
-        if (player.ultimateCharm) {
+        if (this.settings.ultimateCharm) {
           result = true
         }
       }
@@ -145,7 +134,7 @@ export class VriftComponent implements OnInit {
 
       // console.log(miceAttracted.name, result, player.steps, player.floors, advancement, player.stamina);
 
-      if (this.nPlayers == 1) {
+      if (iteration == 0) {
         let res
         result 
           ? res = 'CAUGHT'
@@ -167,8 +156,8 @@ export class VriftComponent implements OnInit {
     const players = []
 
     // simulate each player
-    for (let i = 0; i < this.nPlayers; i++) {
-      const player = (this.simulation())
+    for (let iteration = 0; iteration < this.nPlayers; iteration++) {
+      const player = this.simulation(iteration)
 
       // extract the necessary data
       players.push({
@@ -199,10 +188,9 @@ export class VriftComponent implements OnInit {
     this.playersData = players
 
     // show in Journals
-    this.nPlayers == 1
-      ? this.messages = this.detailedData
-      : this.messages = this.floorsData
-
+    this.messages = this.detailedData
+    this.isDetailed = true
+    
   }
 
   fire(value: number) { this.stats.fire = value }
@@ -219,9 +207,12 @@ export class VriftComponent implements OnInit {
     }
     this.messages = this.stepsData
   }
-  seeFloorData() { this.messages = this.floorsData }
-  seeEclipseData() { this.messages = this.eclipseData }
-  showCRE() { this.enableCRE = true }
-  hideCRE() { this.enableCRE = false }
+
+
+  seeDetailedData() { this.messages = this.detailedData, this.isDetailed = true }
+  seeFloorData() { this.messages = this.floorsData, this.isDetailed = false }
+  seeEclipseData() { this.messages = this.eclipseData, this.isDetailed = false }
+  // showCRE() { this.enableCRE = true }
+  // hideCRE() { this.enableCRE = false }
 
 }
