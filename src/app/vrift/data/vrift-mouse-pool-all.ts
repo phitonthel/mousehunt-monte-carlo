@@ -260,7 +260,7 @@ export default {
           "name": "Shade of the Eclipse",
           "rangeAR": 1,
           "power": 7000000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     },
@@ -608,7 +608,7 @@ export default {
           "name": "Shade of the Eclipse",
           "rangeAR": 1,
           "power": 7000000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     },
@@ -998,7 +998,7 @@ export default {
           "name": "Shade of the Eclipse",
           "rangeAR": 1,
           "power": 7000000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     },
@@ -1430,7 +1430,7 @@ export default {
           "name": "Shade of the Eclipse",
           "rangeAR": 1,
           "power": 7000000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     },
@@ -1862,7 +1862,7 @@ export default {
           "name": "Shade of the Eclipse",
           "rangeAR": 1,
           "power": 7000000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     },
@@ -2294,7 +2294,7 @@ export default {
           "name": "Shade of the Eclipse",
           "rangeAR": 1,
           "power": 7000000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     },
@@ -2726,7 +2726,7 @@ export default {
           "name": "Shade of the Eclipse",
           "rangeAR": 1,
           "power": 7000000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     },
@@ -3158,7 +3158,7 @@ export default {
           "name": "Shade of the Eclipse",
           "rangeAR": 1,
           "power": 7000000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     },
@@ -3590,7 +3590,7 @@ export default {
           "name": "Shade of the Eclipse",
           "rangeAR": 1,
           "power": 7000000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     },
@@ -4022,7 +4022,7 @@ export default {
           "name": "Shade of the Eclipse",
           "rangeAR": 1,
           "power": 7000000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     },
@@ -4454,7 +4454,7 @@ export default {
           "name": "Shade of the Eclipse",
           "rangeAR": 1,
           "power": 7000000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     },
@@ -4874,7 +4874,7 @@ export default {
           "name": "Shade of the Eclipse",
           "rangeAR": 1,
           "power": 7000000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     },
@@ -5240,7 +5240,7 @@ export default {
           "name": "Shade of the Eclipse",
           "rangeAR": 1,
           "power": 7000000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     },
@@ -5510,7 +5510,7 @@ export default {
           "name": "Shade of the Eclipse",
           "rangeAR": 1,
           "power": 7000000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     },
@@ -5726,7 +5726,7 @@ export default {
           "name": "Shade of the Eclipse",
           "rangeAR": 1,
           "power": 7000000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     },
@@ -5906,7 +5906,7 @@ export default {
           "name": "Shade of the Eclipse",
           "rangeAR": 1,
           "power": 7000000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     },
@@ -5918,7 +5918,7 @@ export default {
           "name": "Shade of the Eclipse",
           "rangeAR": 1,
           "power": 7000000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     },
@@ -5930,7 +5930,7 @@ export default {
           "name": "Shade of the Eclipse",
           "rangeAR": 1,
           "power": 7000000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     },
@@ -5942,7 +5942,7 @@ export default {
           "name": "Shade of the Eclipse",
           "rangeAR": 1,
           "power": 7000000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     },
@@ -5954,7 +5954,7 @@ export default {
           "name": "Shade of the Eclipse",
           "rangeAR": 1,
           "power": 7000000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     },
@@ -5966,7 +5966,7 @@ export default {
           "name": "Shade of the Eclipse",
           "rangeAR": 1,
           "power": 7000000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     },
@@ -5978,7 +5978,7 @@ export default {
           "name": "Shade of the Eclipse",
           "rangeAR": 1,
           "power": 7000000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     },
@@ -5990,7 +5990,7 @@ export default {
           "name": "Shade of the Eclipse",
           "rangeAR": 1,
           "power": 7000000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     },
@@ -6002,7 +6002,7 @@ export default {
           "name": "Shade of the Eclipse",
           "rangeAR": 1,
           "power": 7000000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     },
@@ -6014,7 +6014,7 @@ export default {
           "name": "Shade of the Eclipse",
           "rangeAR": 1,
           "power": 7000000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     },
@@ -6026,7 +6026,7 @@ export default {
           "name": "Shade of the Eclipse",
           "rangeAR": 1,
           "power": 7000000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     },
@@ -6038,7 +6038,7 @@ export default {
           "name": "Shade of the Eclipse",
           "rangeAR": 1,
           "power": 7000000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     },
@@ -6050,7 +6050,7 @@ export default {
           "name": "Shade of the Eclipse",
           "rangeAR": 1,
           "power": 7000000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     }
@@ -6358,7 +6358,7 @@ export default {
           "name": "The Total Eclipse",
           "rangeAR": 1,
           "power": 13500000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     },
@@ -6748,7 +6748,7 @@ export default {
           "name": "The Total Eclipse",
           "rangeAR": 1,
           "power": 13500000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     },
@@ -7180,7 +7180,7 @@ export default {
           "name": "The Total Eclipse",
           "rangeAR": 1,
           "power": 13500000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     },
@@ -7654,7 +7654,7 @@ export default {
           "name": "The Total Eclipse",
           "rangeAR": 1,
           "power": 13500000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     },
@@ -8128,7 +8128,7 @@ export default {
           "name": "The Total Eclipse",
           "rangeAR": 1,
           "power": 13500000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     },
@@ -8602,7 +8602,7 @@ export default {
           "name": "The Total Eclipse",
           "rangeAR": 1,
           "power": 13500000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     },
@@ -9076,7 +9076,7 @@ export default {
           "name": "The Total Eclipse",
           "rangeAR": 1,
           "power": 13500000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     },
@@ -9550,7 +9550,7 @@ export default {
           "name": "The Total Eclipse",
           "rangeAR": 1,
           "power": 13500000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     },
@@ -10024,7 +10024,7 @@ export default {
           "name": "The Total Eclipse",
           "rangeAR": 1,
           "power": 13500000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     },
@@ -10498,7 +10498,7 @@ export default {
           "name": "The Total Eclipse",
           "rangeAR": 1,
           "power": 13500000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     },
@@ -10972,7 +10972,7 @@ export default {
           "name": "The Total Eclipse",
           "rangeAR": 1,
           "power": 13500000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     },
@@ -11446,7 +11446,7 @@ export default {
           "name": "The Total Eclipse",
           "rangeAR": 1,
           "power": 13500000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     },
@@ -11920,7 +11920,7 @@ export default {
           "name": "The Total Eclipse",
           "rangeAR": 1,
           "power": 13500000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     },
@@ -12394,7 +12394,7 @@ export default {
           "name": "The Total Eclipse",
           "rangeAR": 1,
           "power": 13500000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     },
@@ -12862,7 +12862,7 @@ export default {
           "name": "The Total Eclipse",
           "rangeAR": 1,
           "power": 13500000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     },
@@ -13306,7 +13306,7 @@ export default {
           "name": "The Total Eclipse",
           "rangeAR": 1,
           "power": 13500000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     },
@@ -13600,7 +13600,7 @@ export default {
           "name": "The Total Eclipse",
           "rangeAR": 1,
           "power": 13500000,
-          "riftEff": 100000
+          "riftEff": 1000
         }
       ]
     },
