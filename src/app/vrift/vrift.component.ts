@@ -12,7 +12,7 @@ import vriftData from './data/vrift-mouse-pool-all'
 })
 export class VriftComponent implements OnInit {
   messages: any[] = []
-  nPlayers: number = 1
+  nPlayers: number = 100
   actionType: string = 'floor'
   data: any = vriftData
 
@@ -42,8 +42,8 @@ export class VriftComponent implements OnInit {
   playerSetting = {
     stamina: 100,
     steps: 0,
-    power: 60000,
-    luck: 70,
+    power: 13111,
+    luck: 35,
     floors: 1,
     eclipseCount: 0,
   }
@@ -63,6 +63,7 @@ export class VriftComponent implements OnInit {
 
   run(): void {
     this.messages = ['Loading...']
+    this.isDetailed = false
     this.detailedData = []
     this.floorsData = []
     this.eclipseData = []
@@ -181,7 +182,7 @@ export class VriftComponent implements OnInit {
           : res = 'MISSED'
         let message = {
           res, advancement,
-          TE: player.eclipseCount,
+          eclipse: player.eclipseCount,
           hunt: hunt + 1,
           stamina: player.stamina,
           mouse: miceAttracted.name,

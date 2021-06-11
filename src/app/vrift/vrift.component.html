@@ -165,7 +165,15 @@
       </div>
 
       <!-- shows info -->
-      <div *ngIf="isDetailed" class=" d-flex justify-content-center">
+      <div *ngIf="isDetailed" class="d-flex justify-content-center">
+        <div style="font-weight: bold;">Detailed Journal of the First Player</div>
+      </div>
+      <div *ngIf="isDetailed" class="d-flex justify-content-center">
+        <div>
+          Eclipse: {{messages[messages.length - 1].eclipse}} |
+          Floors: {{messages[messages.length - 1].floors}} |
+          Steps: {{messages[messages.length - 1].steps}}
+        </div>
       </div>
 
       <div class="justify-content-center">
@@ -185,9 +193,10 @@
                 <span *ngIf="message.res == 'CAUGHT'" style="font-weight: bold; color: green;">
                   {{message.res}}
                 </span>
-                <b>{{message.mouse}}</b>, I advance <b>{{message.advancement}}</b> steps
+                <a href="https://mhwiki.hitgrab.com/wiki/index.php/{{message.mouse}} Mouse" target="_blank">{{message.mouse}} Mouse</a>, advanced <b>{{message.advancement}}</b> steps
                 <br>
                 stamina: <b>{{message.stamina}}</b>,
+                eclipse: <b>{{message.eclipse}}</b>, 
                 currentFloor: <b>{{message.floors}}</b>, 
                 currentSteps: <b>{{message.steps}}</b>
               </div>
