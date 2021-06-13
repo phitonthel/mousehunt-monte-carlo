@@ -21,12 +21,13 @@ export class M {
       "name": "FTA",
       "rangeAR": 1,
       "power": 1,
-      "riftEff": 1
+      "riftEff": 0
     }
 
+    const rand = Math.random()
     for (let i = 0; i < micePool.length; i++) {
       const mouse = micePool[i];
-      if (Math.random() < mouse.rangeAR) {
+      if (rand < mouse.rangeAR) {
         attractedMouse = mouse
         break
       }
@@ -43,8 +44,11 @@ export class M {
     return false
   }
   
-  static stepsAdvancement(mouse: string, result: boolean, stats: any) {
+  static stepsAdvancement(mouse: string, result: boolean, stats: any, mode: string) {
     let steps = 0
+    if (mouse == 'FTA') {
+      return 0
+    }
     if (mouse == 'Terrified Adventurer' && result) {
       return (stats.speedLvl + stats.fire) *  2 * stats.stringStepping
     }
@@ -60,7 +64,7 @@ export class M {
     if (mouse == 'Bulwark of Ascent' && !result) {
       return -10
     }
-    if (!result) {
+    if (!result && mode == 'uu') {
       return -5
     }
     return steps
