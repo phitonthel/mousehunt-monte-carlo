@@ -103,7 +103,6 @@
             name="fire"
             type="checkbox" 
             id="fire"
-            (change)="fire(settings.fire ? 1 : 0)"
             [(ngModel)]="settings.fire">
         </div>
 
@@ -114,7 +113,6 @@
             name="stringStepping"
             type="checkbox" 
             id="stringStepping"
-            (change)="stringStepping(settings.stringStepping ? 2 : 1)"
             [(ngModel)]="settings.stringStepping">
         </div>
 
@@ -125,7 +123,6 @@
             name="superSiphon"
             type="checkbox" 
             id="superSiphon"
-            (change)="superSiphon(settings.superSiphon ? 2 : 1)"
             [(ngModel)]="settings.superSiphon">
         </div>
 
@@ -168,13 +165,27 @@
       </div>
 
       <!-- shows info -->
-      <div *ngIf="isDetailed" class=" d-flex justify-content-center">
+      <div *ngIf="isDetailed">
+        <div class="d-flex justify-content-center">
+          <div style="font-weight: bold;">Detailed Journal of the First Player</div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <div>
+            Eclipse: {{messages[messages.length - 1].eclipse}} |
+            Floors: {{messages[messages.length - 1].floors}} |
+            Steps: {{messages[messages.length - 1].steps}} |
+            TA: {{taData}} | 
+            Hunts: {{messages.length}}
+          </div>
+        </div>
       </div>
 
       <div class="justify-content-center">
         <div *ngFor="let message of messages" class=" d-flex justify-content-center">
           <div class="card col-8">
-            <div class="card-body">
+            <div 
+              class="card-body"
+              [ngStyle]="{'background-color': message.result ? 'white' : 'white'}">
 
               <!-- for floors/TE -->
               <span *ngIf="!isDetailed" [innerHTML]="message"></span>
@@ -182,15 +193,16 @@
               <!-- for detailed -->
               <div *ngIf="isDetailed">
                 Hunt {{message.hunt}} - 
-                <span *ngIf="message.res == 'MISSED'" style="font-weight: bold; color: red;">
-                  {{message.res}}
+                <span *ngIf="!message.result" style="font-weight: bold; color: red;">
+                  Missed
                 </span>
-                <span *ngIf="message.res == 'CAUGHT'" style="font-weight: bold; color: green;">
-                  {{message.res}}
+                <span *ngIf="message.result" style="font-weight: bold; color: green;">
+                  Caught
                 </span>
-                <b>{{message.mouse}}</b>, I advance <b>{{message.advancement}}</b> steps
+                <a href="https://mhwiki.hitgrab.com/wiki/index.php/{{message.mouse}} Mouse" target="_blank">{{message.mouse}} Mouse</a>, advanced <b>{{message.advancement}}</b> steps
                 <br>
                 stamina: <b>{{message.stamina}}</b>,
+                eclipse: <b>{{message.eclipse}}</b>, 
                 currentFloor: <b>{{message.floors}}</b>, 
                 currentSteps: <b>{{message.steps}}</b>
               </div>

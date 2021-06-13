@@ -12,7 +12,7 @@ import vriftData from './data/vrift-mouse-pool-all'
 })
 export class VriftComponent implements OnInit {
   messages: any[] = []
-  nPlayers: number = 1
+  nPlayers: number = 100
   actionType: string = 'floor'
   data: any = vriftData
 
@@ -27,6 +27,7 @@ export class VriftComponent implements OnInit {
   stepsData: any[] = []
   detailedData: any[] = []
   playersData: any[] = []
+  taData: number = 0
 
   isDetailed: boolean = false
 
@@ -42,8 +43,8 @@ export class VriftComponent implements OnInit {
   playerSetting = {
     stamina: 100,
     steps: 0,
-    power: 60000,
-    luck: 70,
+    power: 13111,
+    luck: 35,
     floors: 1,
     eclipseCount: 0,
   }
@@ -63,6 +64,7 @@ export class VriftComponent implements OnInit {
 
   run(): void {
     this.messages = ['Loading...']
+    this.isDetailed = false
     this.detailedData = []
     this.floorsData = []
     this.eclipseData = []
@@ -71,16 +73,21 @@ export class VriftComponent implements OnInit {
     this.playerSetting.floors = M.stepsToFloors(this.playerSetting.steps)
     this.playerSetting.eclipseCount = Math.floor(this.playerSetting.floors / 8)
 
-    // convert string to number because JS sucks
+    // manually convert string to number because JS sucks
     this.stats.speedLvl = Number(this.stats.speedLvl)
     this.stats.siphonLvl = Number(this.stats.siphonLvl)
     this.nPlayers = Number(this.nPlayers)
     this.playerSetting.stamina = Number(this.playerSetting.stamina)
     this.playerSetting.steps = Number(this.playerSetting.steps)
 
+    // convert the settings
+    this.settings.fire ? this.stats.fire = 1 : this.stats.fire = 0
+    this.settings.stringStepping ? this.stats.stringStepping = 2 : this.stats.stringStepping = 1
+    this.settings.superSiphon ? this.stats.superSiphon = 2 : this.stats.stringStepping = 1
+
     console.log(this.playerSetting);
     console.log(this.settings);
-    console.log(this.stats);
+    // console.log(this.stats);
 
     // validation
     if (isNaN(this.nPlayers) || isNaN(this.playerSetting.stamina) || isNaN(this.playerSetting.steps)) {
@@ -126,13 +133,27 @@ export class VriftComponent implements OnInit {
 
       // if TE 13+, use micePool 105-112
       let micePool = []
-      if (player.floors < 48) {
-        micePool = this.data[mode][`floor${player.floors}`].mice
-      } else if (player.floors % 8 == 0) {
-        micePool = this.data[mode][`floor8`].mice
-      } else {
-        const f = 48 + (player.floors % 8)
-        micePool = this.data[mode][`floor${f}`].mice
+      if (mode == 'uu') {
+        if (player.floors < 104) {
+          micePool = this.data[mode][`floor${player.floors}`].mice
+        } else if (player.floors % 8 == 0) {
+          micePool = this.data[mode][`floor8`].mice
+        } else {
+          const f = 104 + (player.floors % 8)
+          micePool = this.data[mode][`floor${f}`].mice
+        }
+      }
+
+      // if SotE 10+, use micePool 81-88
+      if (mode == 'normal') {
+        if (player.floors < 80) {
+          micePool = this.data[mode][`floor${player.floors}`].mice
+        } else if (player.floors % 8 == 0) {
+          micePool = this.data[mode][`floor8`].mice
+        } else {
+          const f = 80 + (player.floors % 8)
+          micePool = this.data[mode][`floor${f}`].mice
+        }
       }
 
       // determine which mice is attracted, return an object (name, power, etc)
@@ -155,7 +176,7 @@ export class VriftComponent implements OnInit {
       }
 
       // determines the advancement
-      const advancement = M.stepsAdvancement(miceAttracted.name, result, this.stats)
+      const advancement = M.stepsAdvancement(miceAttracted.name, result, this.stats, mode)
       // determines steps placement, can't past the Eclipse unless caught
       const placement = M.stepsPlacement(player.steps, advancement, player.eclipseCount)
       // check whether the advancement can set the player back to previous floor
@@ -169,14 +190,11 @@ export class VriftComponent implements OnInit {
 
       // console.log(miceAttracted.name, result, player.steps, player.floors, advancement, player.stamina);
 
+      // add to detailed journal for the first player
       if (iteration == 0) {
-        let res
-        result
-          ? res = 'CAUGHT'
-          : res = 'MISSED'
         let message = {
-          res, advancement,
-          TE: player.eclipseCount,
+          advancement, result,
+          eclipse: player.eclipseCount,
           hunt: hunt + 1,
           stamina: player.stamina,
           mouse: miceAttracted.name,
@@ -221,18 +239,17 @@ export class VriftComponent implements OnInit {
       }
     }
 
+    this.taData = 0
+    this.taData = this.detailedData.filter(journal => journal.mouse == 'Terrified Adventurer').length;
+
     // save players data
-    this.playersData = players
+    // this.playersData = players
 
     // show in Journals
     this.messages = this.detailedData
     this.isDetailed = true
 
   }
-
-  fire(value: number) { this.stats.fire = value }
-  stringStepping(value: number) { this.stats.stringStepping = value }
-  superSiphon(value: number) { this.stats.superSiphon = value }
 
   seeStepsData() {
     this.stepsData = []
@@ -249,6 +266,10 @@ export class VriftComponent implements OnInit {
   seeDetailedData() { this.messages = this.detailedData, this.isDetailed = true }
   seeFloorData() { this.messages = this.floorsData, this.isDetailed = false }
   seeEclipseData() { this.messages = this.eclipseData, this.isDetailed = false }
+
+  // fire(value: number) { this.stats.fire = value }
+  // stringStepping(value: number) { this.stats.stringStepping = value }
+  // superSiphon(value: number) { this.stats.superSiphon = value }
   // showCRE() { this.enableCRE = true }
   // hideCRE() { this.enableCRE = false }
 
