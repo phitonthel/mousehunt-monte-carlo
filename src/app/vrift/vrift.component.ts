@@ -60,6 +60,7 @@ export class VriftComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    this.initSetup()
   }
 
   run(): void {
@@ -262,6 +263,39 @@ export class VriftComponent implements OnInit {
     this.messages = this.stepsData
   }
 
+  initSetup() {
+    const storage = localStorage.getItem('setup')
+    if (storage) {
+      const data = JSON.parse(storage)
+      this.nPlayers = data.nPlayers,
+      this.stats = data.stats,
+      this.playerSetting = data.playerSetting,
+      this.settings = data.settings
+    }
+  }
+
+  saveSetup() {
+    const data = {
+      nPlayers: this.nPlayers,
+      stats: this.stats,
+      playerSetting: this.playerSetting,
+      settings: this.settings
+    }
+    localStorage.setItem('setup', JSON.stringify(data, null, 2));
+    Swal.fire({
+      icon: 'success',
+      text: 'Everytime you visit this page, you will automatically use your saved setup!',
+    })
+    
+  }
+
+  deleteSetup() {
+    localStorage.clear()
+    Swal.fire({
+      icon: 'success',
+      text: 'Deleted!',
+    })
+  }
 
   seeDetailedData() { this.messages = this.detailedData, this.isDetailed = true }
   seeFloorData() { this.messages = this.floorsData, this.isDetailed = false }

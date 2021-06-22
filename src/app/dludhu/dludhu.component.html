@@ -49,8 +49,8 @@
       <div *ngIf="messages.length === 0" class="text-center"><p style="color: red;">You have no entries.<br>Please do a simulation by clicking the button on the left</p></div>
 
       <div *ngIf="messages.length !== 0" class="text-center">
-        <p><b>{{nSucceed}} players triggered the events at least one</b></p>
-        <p><b>{{nFailed}} players triggered nothing</b></p>
+        <p><b>{{nSucceed}} ({{((nSucceed/iteration)*100).toFixed(2)}}%) players triggered the events at least one</b></p>
+        <p><b>{{nFailed}} ({{((nFailed/iteration)*100).toFixed(2)}}%) players triggered nothing</b></p>
       </div>
 
       <div class="justify-content-center">

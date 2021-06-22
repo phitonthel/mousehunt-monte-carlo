@@ -149,6 +149,10 @@
       </form>
       <!-- <button *ngIf="enableCRE" type="button" class="btn btn-dark m-3" (click)="hideCRE()">Hide CRE</button>
       <button *ngIf="!enableCRE" type="button" class="btn btn-dark m-3" (click)="showCRE()">Show CRE</button> -->
+      <button type="button" class="btn btn-outline-primary btn-sm m-3" (click)="saveSetup()"
+        data-toggle="tooltip" data-placement="top" title="Save your current setup to your local storage">Save</button>
+      <button type="button" class="btn btn-outline-danger btn-sm m-3" (click)="deleteSetup()"
+        data-toggle="tooltip" data-placement="top" title="Delete your saved setup from your local storage">Delete</button>
       <button type="button" class="btn btn-dark m-3" (click)="run()">Run the Simulation</button>
     </div>
 
